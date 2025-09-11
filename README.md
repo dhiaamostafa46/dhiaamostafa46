@@ -1,6 +1,5 @@
-<!-- Profile Header -->
 <h1 align="center">Hi 👋, I'm Dhiâa Mostafa</h1>
-<h3 align="center">Senior DevOps / Backend Engineer</h3>
+<h3 align="center">Senior Software Engineer | DevOps & Full Stack Specialist</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=dhiaamostafa&label=Profile%20views&color=0e75b6&style=flat" alt="dhiaamostafa" />
@@ -8,34 +7,121 @@
 
 ---
 
-### 👨‍💻 About Me
+## 👨‍💻 Who am I?
 
-- 🔭 I’m currently working on **cloud-native solutions & microservices**
-- 🌐 I specialize in **DevOps, Backend Engineering, and Cloud Architecture**
-- 🚀 Passionate about automating workflows and building scalable infrastructure
-- 🧠 Currently deepening skills in **cloud security** and **Kubernetes operators**
+I'm a developer with experience in building **websites, web apps, and mobile apps** for small and medium-sized businesses.  
+I specialize in **HTML, CSS, PHP, jQuery, Laravel, and Flutter**, ensuring full project management from start to finish with clear communication along the way.
 
 ---
 
-### 🧰 Tech Stack
+## 🧾 Personal Info
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" width="40" alt="AWS" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="40" alt="Azure" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" alt="Docker" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="40" alt="Kubernetes" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/golang/golang-original.svg" width="40" alt="Go" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" width="40" alt="Laravel" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="40" alt="Bash" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" alt="Linux" />
-</p>
+- 📅 Birthdate: 9 Sep 1995  
+- 📧 Email: dhiaamostafa.dev@gmail.com  
+- 📱 Phone: +966 533 166 742  
+- 📍 Address: Riyadh, Saudi Arabia  
+- 🔗 LinkedIn: [Dhiâa Mostafa Qaid](https://www.linkedin.com/in/dhiaa-mostafa-qaid)
 
 ---
 
-### 📈 GitHub Stats
+## 💼 Experience
+
+### 🟢 2023 – Present: Senior Software Engineer  
+**Eyein Technology – Saudi Arabia**
+- Developed a cloud-based accounting system (**Evix**)
+- Built logistics tracking systems
+- Designed multi-tenant SaaS applications
+- Led ERP and CRM system development
+- Integrated advanced authentication systems
+
+### 🟡 2022 – 2023: Full Stack Developer  
+**SMART SYSTEM – Saudi Arabia**
+- Built restaurant & hotel management systems
+- Managed Agile-based projects
+- Delivered high-quality websites across industries
+
+### 🔵 2020 – 2022: Full Stack Developer  
+**ESKYSOFT – Yemen**
+- Developed school, e-commerce, and booking platforms
+- Maintained quality and performance standards
+- Employed Agile methodologies
+
+---
+
+## 🎓 Education
+
+**Bachelor in Information Technology (2017–2021)**  
+University of Ibb – Yemen  
+- Faculty of Science & Technology  
+- Department of Information Technology
+
+---
+
+## 🛠️ Skills
+
+- **Frontend**: HTML5, CSS3, Bootstrap, SASS, JavaScript, JQuery, TypeScript, AJAX  
+- **Frameworks**: Laravel, React, Next.js, Node.js  
+- **Mobile**: Flutter & Dart  
+- **Backend**: PHP, RESTful APIs  
+- **Databases**: SQL Server, MySQL, SQLite  
+- **DevOps & Tools**: Docker, Kubernetes, Git, GitHub, GitLab  
+- **Cloud**: AWS, Azure  
+- **Business Systems**: ERP, CRM, SaaS, Multi-Tenant Apps  
+
+---
+
+## 🌍 Languages
+
+- 🇸🇦 Arabic: Native  
+- 🇺🇸 English: Professional
+
+---
+
+## 📊 By the Numbers
+
+- ⌛ 12,000+ Hours of Work  
+- ✅ 30+ Projects Completed  
+- 💼 30+ Satisfied Clients  
+
+---
+
+## 🚀 My Services
+
+### 💻 Web Application Development
+Complete web app solutions with a focus on user experience, efficiency, and scalability—from planning to maintenance.
+
+### 🌐 Website Design & Development
+Responsive and modern websites designed to reflect your brand and work across all devices.
+
+### 📱 Mobile App Development
+Custom Android/iOS apps using Flutter with strong performance, beautiful design, and great user experience.
+
+---
+
+## 🧩 Portfolio Highlights
+
+| Project | Description | Preview |
+|--------|-------------|---------|
+| **Miranedu** | Specialized Educational Platform | ![Miranedu](IMAGE_URL) |
+| **Actes Group** | ACTS Energy Systems & Solutions | ![Actes](IMAGE_URL) |
+| **Research Priorities Hasti** | The Research Map | ![Hasti](IMAGE_URL) |
+| **Eyein Lens** | Smart Camera System | ![Eyein Lens](IMAGE_URL) |
+| **Evix** | Cloud-based Accounting System | ![Evix](IMAGE_URL) |
+| **Profile** | Personal Branding Website | ![Profile](IMAGE_URL) |
+| **Camera Company** | Camera Equipment Sales Platform | ![Camera](IMAGE_URL) |
+| **Musanid United** | Company Website | ![Musanid](IMAGE_URL) |
+| **Eyein Camera** | E-Commerce Platform | ![Eyein Camera](IMAGE_URL) |
+| **Dar Zmord Dental Clinic** | Medical Website | ![DarZmord](IMAGE_URL) |
+| **Cinema Filem** | Movie Booking Platform | ![Cinema](IMAGE_URL) |
+
+> ℹ️ Replace `IMAGE_URL` with actual image links of your projects.
+
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dhiaamostafa&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=dhiaamostafa&show_icons=true&theme=tokyonight" alt="Dhiâa's GitHub Stats" />
 </p>
 
 <p align="center">
@@ -44,20 +130,15 @@
 
 ---
 
-### 🌐 Connect with Me
+## 📫 Let’s Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/dhiaamostafa" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:dhiaa@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+  <a href="mailto:dhiaamostafa.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-Dhiâa Mostafa-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/dhiaa-mostafa-qaid" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
 </p>
 
 ---
 
-<!-- Footer -->
 <p align="center">
-  💬 Let’s build something great together — one container at a time.
+  👨‍💻 Building scalable, modern digital solutions — one line of code at a time.
 </p>
