@@ -102,17 +102,17 @@ Custom Android/iOS apps using Flutter with strong performance, beautiful design,
 
 | Project | Description | Preview |
 |--------|-------------|---------|
-| **Miranedu** | Specialized Educational Platform | ![Miranedu](IMAGE_URL) |
-| **Actes Group** | ACTS Energy Systems & Solutions | ![Actes](IMAGE_URL) |
-| **Research Priorities Hasti** | The Research Map | ![Hasti](IMAGE_URL) |
-| **Eyein Lens** | Smart Camera System | ![Eyein Lens](IMAGE_URL) |
-| **Evix** | Cloud-based Accounting System | ![Evix](IMAGE_URL) |
-| **Profile** | Personal Branding Website | ![Profile](IMAGE_URL) |
-| **Camera Company** | Camera Equipment Sales Platform | ![Camera](IMAGE_URL) |
-| **Musanid United** | Company Website | ![Musanid](IMAGE_URL) |
-| **Eyein Camera** | E-Commerce Platform | ![Eyein Camera](IMAGE_URL) |
-| **Dar Zmord Dental Clinic** | Medical Website | ![DarZmord](IMAGE_URL) |
-| **Cinema Filem** | Movie Booking Platform | ![Cinema](IMAGE_URL) |
+| **Miranedu** | Specialized Educational Platform | ![Miranedu]('imgs/1.jepg') |
+| **Actes Group** | ACTS Energy Systems & Solutions | ![Actes]('imgs/2.jepg') |
+| **Research Priorities Hasti** | The Research Map | ![Hasti]('imgs/3.jepg')|
+| **Eyein Lens** | Smart Camera System | ![Eyein Lens]('imgs/4.jepg') |
+| **Evix** | Cloud-based Accounting System | ![Evix]('imgs/5.jepg') |
+| **Profile** | Personal Branding Website | ![Profile]('imgs/6.jepg') |
+| **Camera Company** | Camera Equipment Sales Platform | ![Camera]('imgs/7.jepg')|
+| **Musanid United** | Company Website | ![Musanid]('imgs/8.jepg')|
+| **Eyein Camera** | E-Commerce Platform | ![Eyein Camera]('imgs/9.jepg')|
+| **Dar Zmord Dental Clinic** | Medical Website | ![DarZmord]('imgs/10.jepg')|
+| **Cinema Filem** | Movie Booking Platform | ![Cinema]('imgs/11.jepg') |
 
 > ℹ️ Replace `IMAGE_URL` with actual image links of your projects.
 
@@ -129,16 +129,3 @@ Custom Android/iOS apps using Flutter with strong performance, beautiful design,
 </p>
 
 ---
-
-## 📫 Let’s Connect
-
-<p align="center">
-  <a href="mailto:dhiaamostafa.dev@gmail.com"><img src="https://img.shields.io/badge/Gmail-Dhiâa Mostafa-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/dhiaa-mostafa-qaid" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" /></a>
-</p>
-
----
-
-<p align="center">
-  👨‍💻 Building scalable, modern digital solutions — one line of code at a time.
-</p>
