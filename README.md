@@ -100,19 +100,20 @@ Custom Android/iOS apps using Flutter with strong performance, beautiful design,
 
 ## 🧩 Portfolio Highlights
 
+
 | Project | Description | Preview |
 |--------|-------------|---------|
-| **Miranedu** | Specialized Educational Platform | ![Miranedu]('imgs/1.jepg') |
-| **Actes Group** | ACTS Energy Systems & Solutions | ![Actes]('imgs/2.jepg') |
-| **Research Priorities Hasti** | The Research Map | ![Hasti]('imgs/3.jepg')|
-| **Eyein Lens** | Smart Camera System | ![Eyein Lens]('imgs/4.jepg') |
-| **Evix** | Cloud-based Accounting System | ![Evix]('imgs/5.jepg') |
-| **Profile** | Personal Branding Website | ![Profile]('imgs/6.jepg') |
-| **Camera Company** | Camera Equipment Sales Platform | ![Camera]('imgs/7.jepg')|
-| **Musanid United** | Company Website | ![Musanid]('imgs/8.jepg')|
-| **Eyein Camera** | E-Commerce Platform | ![Eyein Camera]('imgs/9.jepg')|
-| **Dar Zmord Dental Clinic** | Medical Website | ![DarZmord]('imgs/10.jepg')|
-| **Cinema Filem** | Movie Booking Platform | ![Cinema]('imgs/11.jepg') |
+| **Miranedu** | Specialized Educational Platform | ![](imgs/1.jpeg) |
+| **Actes Group** | ACTS Energy Systems & Solutions | ![](imgs/2.jpeg) |
+| **Research Priorities Hasti** | The Research Map | ![](imgs/3.jpeg) |
+| **Eyein Lens** | Smart Camera System | ![](imgs/4.jpeg) |
+| **Evix** | Cloud-based Accounting System | ![](imgs/5.jpeg) |
+| **Profile** | Personal Branding Website | ![](imgs/6.jpeg) |
+| **Camera Company** | Camera Equipment Sales Platform | ![](imgs/7.jpeg) |
+| **Musanid United** | Company Website | ![](imgs/8.jpeg) |
+| **Eyein Camera** | E-Commerce Platform | ![](imgs/9.jpeg) |
+| **Dar Zmord Dental Clinic** | Medical Website | ![](imgs/10.jpeg) |
+| **Cinema Filem** | Movie Booking Platform | ![](imgs/11.jpeg) |
 
 > ℹ️ Replace `IMAGE_URL` with actual image links of your projects.
 
