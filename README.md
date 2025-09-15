@@ -51,21 +51,26 @@ University of Ibb – Yemen
 - **Cloud**: AWS, Azure  
 - **Business Systems**: ERP, CRM, SaaS, Multi-Tenant Apps 
 
-## 🧩 Portfolio Highlights
+# 🚀 My Portfolio Projects
 
+A comprehensive collection of modern business solutions and digital platforms developed to meet diverse industry needs. Each project showcases cutting-edge technology implementations and user-centric design principles.
 
-| Project | Description | 
-|--------|-------------|
-| **Evix** | System ERP|
-| **HR System** |HR|
-| **Miranedu** | Specialized Educational Platform| 
-| **Actes Group** | ACTS Energy Systems & Solutions| 
-| **Research Priorities Hasti** | The Research Map | 
-| **Eyein Lens** | Smart Camera System | 
-| **Evix** | Cloud-based Accounting System | 
-| **Profile** | Personal Branding Website | 
-| **Camera Company** | Camera Equipment Sales Platform | 
-| **Musanid United** | Company Website | 
-| **Eyein Camera** | E-Commerce Platform | 
-| **Dar Zmord Dental Clinic** | Medical Website |
-| **Cinema Filem** | Movie Booking Platform |
+---
+
+## 📋 Projects Overview
+
+| Project | Category | Description | Key Features |
+|---------|----------|-------------|--------------|
+| **🏢 Evix ERP** | Enterprise Resource Planning | Comprehensive ERP system integrating core business processes across departments with advanced financial management and operational efficiency tools | • Financial Management<br>• Inventory Control<br>• Process Automation<br>• Real-time Analytics |
+| **👥 HR Management System** | Human Resources | Complete HR solution for workforce management, from recruitment to payroll processing | • Employee Management<br>• Payroll Processing<br>• Performance Tracking<br>• Leave Management |
+| **📚 Miranedu** | Educational Technology | Specialized educational platform designed for modern learning environments and digital education delivery | • Course Management<br>• Student Progress Tracking<br>• Interactive Learning Tools<br>• Assessment System |
+| **⚡ Actes Group** | Energy Solutions | Corporate website for ACTS Energy Systems & Solutions, showcasing renewable energy and sustainable technology services | • Service Portfolio<br>• Project Gallery<br>• Client Testimonials<br>• Technical Specifications |
+| **🔬 Research Priorities Hasti** | Research & Development | Interactive research mapping platform for organizing and visualizing research priorities and academic initiatives | • Research Categorization<br>• Priority Mapping<br>• Data Visualization<br>• Progress Tracking |
+| **📷 Eyein Lens** | Smart Technology | Advanced AI-powered camera system using machine learning algorithms to analyze and interpret real-time scenes with intelligent object detection | • Real-time Analysis<br>• Object Recognition<br>• Smart Alerts<br>• Cloud Integration |
+| **💰 Evix Cloud Accounting** | Financial Technology | Cloud-based accounting system providing comprehensive financial management solutions for modern businesses | • Cloud Storage<br>• Multi-user Access<br>• Financial Reporting<br>• Tax Management |
+| **👤 Personal Profile** | Digital Branding | Professional personal branding website showcasing skills, experience, and portfolio with modern web design | • Responsive Design<br>• Portfolio Showcase<br>• Contact Integration<br>• SEO Optimization |
+| **📸 Camera Equipment Store** | E-Commerce | Specialized e-commerce platform for camera equipment sales with advanced product catalog and secure payment systems | • Product Catalog<br>• Secure Payments<br>• Inventory Management<br>• Customer Reviews |
+| **🏢 Musanid United** | Corporate Website | Professional corporate website representing company services, values, and business portfolio | • Company Profile<br>• Service Pages<br>• Contact Forms<br>• Business Portfolio |
+| **🛒 Eyein Camera E-Commerce** | Online Retail | Comprehensive e-commerce platform specializing in camera and photography equipment with user-friendly interface | • Shopping Cart<br>• Product Search<br>• Order Tracking<br>• Customer Support |
+| **🦷 Dar Zmord Dental Clinic** | Healthcare | Medical website for dental clinic services featuring appointment booking and patient information systems | • Appointment Booking<br>• Service Information<br>• Patient Portal<br>• Medical Records |
+| **🎬 Cinema Filem** | Entertainment | Movie booking platform with seat selection, show timings, and integrated payment gateway for cinema experiences | • Movie Listings<br>• Seat Selection<br>• Online Booking<br>• Payment Gateway |
