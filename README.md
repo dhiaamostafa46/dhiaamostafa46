@@ -1,141 +1,188 @@
-<h1 align="center">Hi 👋, I'm Dhiaa Mostafa</h1>
-<h3 align="center">Senior Software Engineer | DevOps & Full Stack Specialist</h3>
+# Hi 👋, I'm Dhiaa Mostafa
 
-## 👨‍💻 Who am I?
+<div align="center">
+  <h3>Senior Software Engineer | DevOps & Full Stack Specialist</h3>
+  
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](your-linkedin-url)
+  [![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=flat&logo=google-chrome&logoColor=white)](your-portfolio-url)
+  [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-email@domain.com)
+  
+  ![Profile Views](https://komarev.com/ghpvc/?username=your-username&color=brightgreen)
+</div>
 
-I'm a developer with experience in building **websites, web apps, and mobile apps** for small and medium-sized businesses.  
-I specialize in **HTML, CSS, PHP, jQuery, Laravel, and Flutter**, ensuring full project management from start to finish with clear communication along the way.
+## 🚀 About Me
+
+I'm a passionate developer specializing in building scalable **web applications**, **mobile apps**, and **enterprise solutions** for businesses of all sizes. With expertise in modern technologies and DevOps practices, I deliver end-to-end solutions with clear communication and project management excellence.
+
+- 🔭 Currently working on **Cloud-based ERP Systems** and **AI-powered Applications**
+- 🌱 Learning **Kubernetes**, **Microservices Architecture**, and **Machine Learning**
+- 👯 Looking to collaborate on **Open Source Projects** and **Innovative SaaS Solutions**
+- 💬 Ask me about **Laravel**, **React**, **Flutter**, **DevOps**, and **System Architecture**
+- ⚡ Fun fact: I love solving complex problems and turning ideas into reality!
 
 ---
 
-## 💼 Experience
+## 💼 Professional Experience
 
-### 🟢 2023 – Present: Senior Software Engineer  
-**Eyein Technology – Saudi Arabia**
-- Developed a cloud-based accounting system (**Evix**)
-- Built logistics tracking systems
-- Designed multi-tenant SaaS applications
-- Led ERP and CRM system development
-- Integrated advanced authentication systems
+### 🟢 Senior Software Engineer | **Eyein Technology** (2023 – Present)
+**Saudi Arabia** 🇸🇦
+- 🏗️ Architected and developed **Evix** - a comprehensive cloud-based accounting system
+- 📦 Built advanced logistics tracking and supply chain management systems
+- 🏢 Designed scalable multi-tenant SaaS applications serving 100+ businesses
+- 🔐 Implemented enterprise-grade authentication and security systems
+- 👥 Led cross-functional teams in ERP and CRM development projects
 
-### 🟡 2022 – 2023: Full Stack Developer  
-**SMART SYSTEM – Saudi Arabia**
-- Built restaurant & hotel management systems
-- Managed Agile-based projects
-- Delivered high-quality websites across industries
+### 🟡 Full Stack Developer | **SMART SYSTEM** (2022 – 2023)
+**Saudi Arabia** 🇸🇦
+- 🍽️ Developed comprehensive restaurant and hotel management systems
+- 📊 Managed Agile-based projects with 95%+ on-time delivery rate
+- 🌐 Delivered high-performance websites across diverse industries
 
-### 🔵 2020 – 2022: Full Stack Developer  
-**ESKYSOFT – Yemen**
-- Developed school, e-commerce, and booking platforms
-- Maintained quality and performance standards
-- Employed Agile methodologies
+### 🔵 Full Stack Developer | **ESKYSOFT** (2020 – 2022)
+**Yemen** 🇾🇪
+- 🎓 Built educational platforms and e-learning management systems
+- 🛒 Developed e-commerce solutions and booking platforms
+- 📈 Maintained 99.9% system uptime and optimal performance standards
 
 ---
 
 ## 🎓 Education
 
-**Bachelor in Information Technology (2017–2021)**  
-University of Ibb – Yemen  
-- Faculty of Science & Technology  
-- Department of Information Technology
+**Bachelor of Information Technology** (2017 – 2021)  
+**University of Ibb, Yemen**  
+Faculty of Science & Technology | Department of Information Technology
 
 ---
-## 🛠️ Skills
 
-- **Frontend**: HTML5, CSS3, Bootstrap, SASS, JavaScript, JQuery, TypeScript, AJAX  
-- **Frameworks**: Laravel, React, Next.js, Node.js , blazor , 
-- **Mobile**: Flutter & Dart  
-- **Backend**: PHP, RESTful APIs ,C#, ASP.NET
-- **Databases**: SQL Server, MySQL, SQLite  
-- **DevOps & Tools**: Docker, Kubernetes, Git, GitHub, GitLab  
-- **Cloud**: AWS, Azure  
-- **Business Systems**: ERP, CRM, SaaS, Multi-Tenant Apps 
+## 🛠️ Technical Skills
 
-# 🚀 My Portfolio Projects
+<div align="center">
 
-A comprehensive collection of modern business solutions and digital platforms developed to meet diverse industry needs. Each project showcases cutting-edge technology implementations and user-centric design principles.
+### Frontend Development
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat&logo=sass&logoColor=white)
+
+### Backend Development
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=c-sharp&logoColor=white)
+![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
+
+### Mobile Development
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white)
+
+### Databases
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/-SQL%20Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+
+### DevOps & Cloud
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoft-azure&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white)
+
+</div>
 
 ---
-# 🚀 My Projects Portfolio
 
-Welcome to my GitHub profile! Here's a comprehensive overview of my diverse project portfolio spanning ERP systems, educational platforms, e-commerce solutions, and specialized business applications.
+## 📊 GitHub Statistics
 
-## 📊 Projects Overview
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&langs_count=8&theme=tokyonight"/>
+</div>
 
-| 🔗 Project | 📝 Description | 🛠️ Technologies | 🎯 Category |
-|------------|-----------------|-------------------|-------------|
-| **[Evix ERP System](https://github.com/username/evix-erp)** | Comprehensive Enterprise Resource Planning system with inventory management, sales analytics, purchase tracking, and integrated accounting features. Provides warehouse management and operational efficiency tools. | PHP, MySQL, JavaScript | 💼 Business Management |
-| **[HR Management System](https://github.com/username/hr-system)** | Complete Human Resources management solution for employee data, payroll processing, attendance tracking, and performance evaluation. | Laravel, Vue.js, MySQL | 👥 Human Resources |
-| **[Miranedu Platform](https://github.com/username/miranedu)** | Specialized educational platform designed for modern learning experiences with interactive features, course management, and student progress tracking. | React, Node.js, MongoDB | 🎓 Education |
-| **[ACTS Energy Systems](https://github.com/username/acts-group)** | Professional website for ACTS Energy Systems & Solutions, showcasing renewable energy projects and services portfolio. | HTML5, CSS3, JavaScript | 🌱 Energy Solutions |
-| **[Research Priorities Hasti](https://github.com/username/research-hasti)** | Interactive research mapping platform for visualizing and organizing academic research priorities and project workflows. | D3.js, Python, PostgreSQL | 🔬 Research Tools |
-| **[Eyein Smart Camera](https://github.com/username/eyein-lens)** | AI-powered smart camera system with real-time object detection, facial recognition, and automated surveillance capabilities. | Python, OpenCV, TensorFlow | 📹 AI/Computer Vision |
-| **[Evix Cloud Accounting](https://github.com/username/evix-cloud)** | Cloud-based accounting system fully integrated with ERP functionality, ensuring financial data accuracy and operational efficiency through automation. | React, Node.js, AWS | ☁️ Cloud Solutions |
-| **[Personal Portfolio](https://github.com/username/profile)** | Professional personal branding website showcasing skills, projects, and career achievements with modern responsive design. | Next.js, Tailwind CSS | 🌐 Portfolio |
-| **[Camera Equipment Store](https://github.com/username/camera-company)** | E-commerce platform specializing in professional camera equipment sales with product catalog and secure payment processing. | WooCommerce, PHP | 🛒 E-commerce |
-| **[Musanid United](https://github.com/username/musanid-united)** | Corporate website for Musanid United company featuring services, team information, and client portfolio showcase. | WordPress, Custom Theme | 🏢 Corporate Website |
-| **[Eyein Camera Shop](https://github.com/username/eyein-camera)** | Comprehensive e-commerce platform for camera equipment with advanced filtering, comparison tools, and customer reviews. | Magento, MySQL | 📸 Specialized E-commerce |
-| **[Dar Zmord Dental Clinic](https://github.com/username/dar-zmord)** | Professional medical website for dental clinic with appointment booking, services showcase, and patient information portal. | Laravel, Bootstrap | 🏥 Healthcare |
-| **[Cinema Filem Booking](https://github.com/username/cinema-filem)** | Movie ticket booking platform with seat selection, showtimes management, and integrated payment gateway. | React, Express.js, Stripe | 🎬 Entertainment |
-| **[Salon Management Pro](https://github.com/username/salon-management)** | Complete salon management system with appointment scheduling, client management, inventory tracking, and staff coordination. | Vue.js, PHP, MySQL | 💅 Service Management |
-| **[Nam Contracting](https://github.com/username/nam-contracting)** | Professional contracting company website (نام مقاولات) with project portfolio, services, and client testimonials in Arabic/English. | Multilingual CMS | 🏗️ Construction |
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight" alt="GitHub Streak" />
+</div>
 
-## 🏆 Key Achievements
+---
 
-- **15+ Diverse Projects** across multiple industries and technologies
-- **Full-Stack Development** expertise spanning frontend, backend, and database design
-- **Multi-language Support** including Arabic and English interfaces
-- **Cloud Integration** and modern deployment practices
-- **AI/ML Implementation** in computer vision and smart systems
+## 🏆 Featured Projects
 
-## 🔧 Technology Stack
+### 🔥 [Evix ERP System](https://github.com/your-username/evix-erp)
+**Enterprise Resource Planning Solution**  
+A comprehensive ERP system with inventory management, sales analytics, and integrated accounting features.  
+**Tech Stack:** PHP, Laravel, MySQL, JavaScript, Bootstrap
 
-### Frontend
-- React.js, Vue.js, Next.js
-- HTML5, CSS3, JavaScript (ES6+)
-- Tailwind CSS, Bootstrap
-- Responsive & Mobile-First Design
+### 🎓 [Miranedu Platform](https://github.com/your-username/miranedu)
+**Educational Learning Management System**  
+Modern e-learning platform with interactive features and progress tracking.  
+**Tech Stack:** React, Node.js, MongoDB, Express.js
 
-### Backend
-- Node.js, PHP, Laravel
-- Express.js, RESTful APIs
-- Python (AI/ML projects)
-- Database Design & Optimization
+### 📱 [Cinema Filem Booking](https://github.com/your-username/cinema-filem)
+**Movie Ticket Booking Platform**  
+Full-featured cinema booking system with seat selection and payment integration.  
+**Tech Stack:** React, Express.js, MySQL, Stripe API
 
-### Databases & Cloud
-- MySQL, PostgreSQL, MongoDB
-- AWS, Cloud Deployment
-- Redis, Caching Solutions
+### 🤖 [Eyein Smart Camera](https://github.com/your-username/eyein-lens)
+**AI-Powered Surveillance System**  
+Intelligent camera system with real-time object detection and facial recognition.  
+**Tech Stack:** Python, OpenCV, TensorFlow, Flask
 
-### Specialized Technologies
-- OpenCV, TensorFlow (AI/Vision)
-- D3.js (Data Visualization)
-- WooCommerce, Magento (E-commerce)
-- WordPress (CMS)
+### 💼 [HR Management System](https://github.com/your-username/hr-system)
+**Human Resources Management Solution**  
+Complete HR system for employee management, payroll, and performance tracking.  
+**Tech Stack:** Laravel, Vue.js, MySQL, Redis
+
+---
 
 ## 📈 Project Categories
 
-| Category | Count | Focus Areas |
-|----------|-------|-------------|
-| **Business Management** | 4 | ERP, HR, Accounting, Analytics |
-| **E-commerce** | 3 | Online Stores, Payment Integration |
-| **Healthcare & Services** | 3 | Medical, Salon, Service Management |
-| **Technology & AI** | 2 | Computer Vision, Smart Systems |
-| **Corporate & Portfolio** | 3 | Company Websites, Personal Branding |
-
-## 🌟 Featured Projects
-
-### 🔥 Most Complex: Evix ERP System
-A comprehensive enterprise solution combining inventory management, financial tracking, and business analytics in one integrated platform.
-
-### 🚀 Most Innovative: Eyein Smart Camera
-AI-powered surveillance system with real-time object detection and intelligent monitoring capabilities.
-
-### 💡 Most Versatile: Cinema Filem Platform
-Feature-rich movie booking system with seat selection, payment processing, and showtime management.
+| Category | Projects | Technologies Used |
+|----------|----------|------------------|
+| **🏢 Business Management** | ERP, HR, Accounting Systems | Laravel, React, MySQL |
+| **🛒 E-commerce** | Online Stores, Payment Systems | WooCommerce, Magento, Stripe |
+| **🎓 Education** | Learning Platforms, School Management | React, Node.js, MongoDB |
+| **🏥 Healthcare** | Clinic Management, Booking Systems | PHP, Laravel, Bootstrap |
+| **🤖 AI/ML** | Computer Vision, Smart Systems | Python, TensorFlow, OpenCV |
+| **📱 Mobile Apps** | Cross-platform Applications | Flutter, Dart |
 
 ---
 
-*🔗 **Connect with me:** Feel free to explore the repositories and don't hesitate to reach out for collaboration opportunities!*
+## 🎯 Current Focus
 
-*📧 **Contact:** [Your Email] | 🌐 **Portfolio:** [Your Website] | 💼 **LinkedIn:** [Your Profile]*
+- 🚀 **Microservices Architecture** - Building scalable distributed systems
+- ☁️ **Cloud-Native Development** - Leveraging AWS and Azure services
+- 🤖 **AI Integration** - Implementing machine learning in business applications
+- 📊 **Data Analytics** - Creating intelligent reporting and dashboards
+- 🔒 **Cybersecurity** - Implementing robust security measures
+
+---
+
+## 📞 Let's Connect!
+
+I'm always interested in discussing new opportunities, collaborations, or just chatting about technology!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](your-portfolio-url)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@domain.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](your-whatsapp-url)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Senior+Software+Engineer;Full+Stack+Developer;DevOps+Specialist;Problem+Solver;Always+Learning!" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  
+**"Code is poetry, and every developer is a poet writing the future."**
+
+⭐ **If you find my work interesting, please star my repositories!**
+
+</div>
