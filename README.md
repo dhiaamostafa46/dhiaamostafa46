@@ -1,13 +1,11 @@
 # Hi 👋, I'm Dhiaa Mostafa
 
 <div align="center">
-  <h3>Senior Software Engineer | DevOps & Full Stack Specialist</h3>
+  <h3> Senior Software Engineer || Full Stack Developer |ERP Developer || API Integration Expert || AWS & Docker Enthusiast </h3>
   
-  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](your-linkedin-url)
-  [![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=flat&logo=google-chrome&logoColor=white)](your-portfolio-url)
-  [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:your-email@domain.com)
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=your-username&color=brightgreen)
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhiaamostafa/)
+  [![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=flat&logo=google-chrome&logoColor=white)](https://dhiaamostafa.com/)
+  [![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:dhiaamostafa46@gmail.com)
 </div>
 
 ## 🚀 About Me
