@@ -92,22 +92,17 @@ Faculty of Science & Technology | Department of Information Technology
 </div>
 
 ---
-
 ## 📊 GitHub Statistics
-
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhiaamostafa46&show_icons=true&theme=tokyonight&include_all_commits=true &count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhiaamostafa46&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhiaamostafa46&theme=tokyonight" alt="GitHub Streak" />
 </div>
-
 ---
-
 ## 🏆 Featured Projects
-
 ### 🔥 [Evix ERP System](https://github.com/your-username/evix-erp)
 **Enterprise Resource Planning Solution**  
 A comprehensive ERP system with inventory management, sales analytics, and integrated accounting features.  
@@ -156,31 +151,3 @@ Complete HR system for employee management, payroll, and performance tracking.
 - 📊 **Data Analytics** - Creating intelligent reporting and dashboards
 - 🔒 **Cybersecurity** - Implementing robust security measures
 
----
-
-## 📞 Let's Connect!
-
-I'm always interested in discussing new opportunities, collaborations, or just chatting about technology!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](your-portfolio-url)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@domain.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](your-whatsapp-url)
-
-</div>
-
----
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=435&lines=Senior+Software+Engineer;Full+Stack+Developer;DevOps+Specialist;Problem+Solver;Always+Learning!" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  
-**"Code is poetry, and every developer is a poet writing the future."**
-
-⭐ **If you find my work interesting, please star my repositories!**
-
-</div>
