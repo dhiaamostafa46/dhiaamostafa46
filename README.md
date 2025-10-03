@@ -92,16 +92,6 @@ Faculty of Science & Technology | Department of Information Technology
 </div>
 
 ---
-## 📊 GitHub Statistics
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dhiaamostafa46&show_icons=true&theme=tokyonight&include_all_commits=true &count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhiaamostafa46&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dhiaamostafa46&theme=tokyonight" alt="GitHub Streak" />
-</div>
----
 ## 🏆 Featured Projects
 ### 🔥 [Evix ERP System](https://github.com/your-username/evix-erp)
 **Enterprise Resource Planning Solution**  
