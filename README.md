@@ -1,180 +1,199 @@
-# Hi, I'm Dhiaa Mostafa
-
-**Senior Software Engineer | ERP Systems Architect | Full Stack Developer**
-
-[LinkedIn](https://www.linkedin.com/in/dhiaamostafa/) • [Portfolio](https://dhiaamostafa.com/) • [Email](mailto:dhiaamostafa46@gmail.com)
-
+<div align="center">
+ 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=120&section=header&text=Dhiaa%20Mostafa&fontSize=42&fontColor=ffffff&fontAlignY=65&desc=Senior%20Back-End%20Engineer%20%7C%20ERP%20Architect%20%7C%20Full-Stack%20Developer&descSize=15&descAlignY=85&descColor=B5D4F4"/>
+ 
+</div>
+ 
+<div align="center">
+ 
+[![Portfolio](https://img.shields.io/badge/%F0%9F%8C%90%20Portfolio-dhiaamostafa.com-1A56DB?style=for-the-badge)](https://dhiaamostafa.com/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhiaamostafa/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaamostafa46@gmail.com)
+ 
+</div>
+ 
+<br/>
+ 
+<div align="center">
+ 
+```
+🏗️  5+ years building enterprise-grade back-end systems
+🚀  Scaled SaaS platforms to 7,000+ concurrent users
+🔗  Led ERP integrations for 500+ enterprise clients
+📍  Riyadh, Saudi Arabia  —  Open to remote
+```
+ 
+</div>
+ 
 ---
-
-## About Me
-
-I'm a **Senior Software Engineer** specializing in building scalable **web applications**, **mobile apps**, and **enterprise solutions** for businesses of all sizes. With expertise in modern technologies and DevOps practices, I deliver end-to-end solutions with clear communication and project management excellence.
-
-- Currently working on **Cloud-based ERP Systems** and **AI-powered Applications**
-- Learning **Kubernetes**, **Microservices Architecture**, and **Machine Learning**
-- Looking to collaborate on **Open Source Projects** and **Innovative SaaS Solutions**
-- Ask me about **Laravel**, **React**, **Flutter**, **DevOps**, and **System Architecture**
-- Fun fact: I love solving complex problems and turning ideas into reality!
-
+ 
+## ⚡ Impact at a Glance
+ 
+<div align="center">
+ 
+| 🚚 | 🏢 | ⚡ | 🛠️ |
+|:---:|:---:|:---:|:---:|
+| **7,000+** | **500+** | **40%+** | **10+** |
+| Delivery agents on one SaaS platform | Enterprise clients via ERP integrations | API response time improvement | Production systems delivered |
+ 
+</div>
+ 
 ---
-
-## Professional Experience
-
-### Senior Software Engineer | **Eyein Technology** (2023 – Present)
-**Saudi Arabia**
-
-- Architected and developed **Evix ERP** - a comprehensive cloud-based accounting system
-- Built advanced logistics tracking and supply chain management systems
-- Designed scalable multi-tenant SaaS applications serving 100+ businesses
-- Implemented enterprise-grade authentication and security systems
-- Led cross-functional teams in ERP and CRM development projects
-
-**Recent Projects (Last 3 Months):**
-- Rebuilt **Evix ERP** from scratch with modern, scalable architecture
-- Developed comprehensive **HR Management System** with advanced features
-- Maintained and enhanced legacy ERP system while supporting 100+ active clients
-- Implemented **Multi-Tenancy** with database-per-tenant architecture
-
-### Full Stack Developer | **SMART SYSTEM** (2022 – 2023)
-**Saudi Arabia**
-
-- Developed comprehensive restaurant and hotel management systems
-- Managed Agile-based projects with 95%+ on-time delivery rate
-- Delivered high-performance websites across diverse industries
-
-### Full Stack Developer | **ESKYSOFT** (2020 – 2022)
-**Yemen**
-
-- Built educational platforms and e-learning management systems
-- Developed e-commerce solutions and booking platforms
-- Maintained 99.9% system uptime and optimal performance standards
-
+ 
+## 🧠 About Me
+ 
+I'm a **Senior Back-End Engineer** who specializes in building systems that don't break under pressure.
+ 
+My focus is on **Laravel-based SaaS architectures**, **ERP integrations**, and **real-time applications** — the kind of back-end work that keeps 7,000 delivery agents moving and 500 companies synced without a hiccup.
+ 
+Currently at **Eyein Technology**, I architect and maintain **Evix ERP** — a cloud-based multi-tenant accounting and logistics platform serving enterprise clients across Saudi Arabia.
+ 
+> *I don't just write code — I design systems that scale, secure, and sustain.*
+ 
 ---
-
-## Education
-
-**Bachelor of Information Technology** (2017 – 2021)  
-University of Ibb, Yemen  
-*Faculty of Science & Technology | Department of Information Technology*
-
+ 
+## 🔧 Tech Stack
+ 
+### Back-End
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
+![PHPUnit](https://img.shields.io/badge/PHPUnit-366488?style=flat-square)
+ 
+### Databases & Queues
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+ 
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
+ 
+### Front-End & Mobile
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+ 
 ---
-
-## Technical Skills
-
-### Frontend Development
-HTML5 • CSS3 • JavaScript • TypeScript • React • Next.js • Bootstrap • Sass • Vue.js
-
-### Backend Development
-PHP • Laravel • Node.js • C# • .NET • Express.js
-
-### Mobile Development
-Flutter • Dart
-
-### Databases
-MySQL • SQL Server • SQLite • MongoDB • Redis
-
-### DevOps & Cloud
-Docker • Kubernetes • AWS • Azure • Git • CI/CD
-
----
-
-## Featured Projects
-
-### Miranedu Platform
-**Educational Learning Management System**
-
-Modern e-learning platform with interactive features and progress tracking.
-
-**Tech Stack:** React • Node.js • MongoDB • Express.js
-
----
-
-### Cinema Filem Booking
-**Movie Ticket Booking Platform**
-
-Full-featured cinema booking system with seat selection and payment integration.
-
-**Tech Stack:** React • Express.js • MySQL • Stripe API
-
----
-
-### Eyein Smart Camera
+ 
+## 🏆 Featured Projects
+ 
+<table>
+<tr>
+<td width="50%" valign="top">
+ 
+### 🏢 Evix ERP
+**Cloud Accounting & Logistics Platform**
+ 
+Multi-tenant SaaS with sub-domain architecture — serving 500+ enterprise clients with real-time logistics tracking for 7,000+ delivery agents.
+ 
+- Multi-tenancy with full data isolation
+- RESTful API + API Gateway for all integrations
+- Redis queues for high-throughput background jobs
+- 99%+ uptime under peak load
+ 
+`Laravel` `Redis` `WebSockets` `AWS` `Docker`
+ 
+</td>
+<td width="50%" valign="top">
+ 
+### 👥 HR Management System
+**Enterprise HR Automation**
+ 
+End-to-end HR platform covering attendance, automated payroll processing, and configurable policy management — replacing all manual HR operations.
+ 
+- Automated payroll engine
+- Queue-based background processing
+- Configurable policy rules engine
+- Role-based access control (RBAC)
+ 
+`Laravel` `MySQL` `Redis Queues` `PHPUnit`
+ 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+ 
+### 🎥 Eyein Smart Camera
 **AI-Powered Surveillance System**
-
-Intelligent camera system with real-time object detection and facial recognition.
-
-**Tech Stack:** Python • OpenCV • TensorFlow • Flask
-
+ 
+Intelligent camera system with real-time object detection and facial recognition for enterprise security.
+ 
+- Real-time video stream processing
+- TensorFlow-based object detection
+- Alert and event management system
+ 
+`Python` `TensorFlow` `OpenCV` `Flask`
+ 
+</td>
+<td width="50%" valign="top">
+ 
+### 🎬 Cinema Filem Booking
+**Movie Ticket Booking Platform**
+ 
+Full-featured cinema booking with interactive seat selection, session management, and payment integration.
+ 
+- Interactive seat selection UI
+- Multi-cinema session management
+- Stripe payment integration
+ 
+`React` `Node.js` `MySQL` `Stripe API`
+ 
+</td>
+</tr>
+</table>
+ 
 ---
-
-### Restaurant Management System
-**Hospitality Management Solution**
-
-Comprehensive system for restaurant and hotel operations management.
-
-**Tech Stack:** Laravel • PHP • MySQL • Bootstrap
-
----
-
-### E-commerce Platform
-**Online Shopping Solution**
-
-Full-featured e-commerce platform with payment gateway integration.
-
-**Tech Stack:** Laravel • Vue.js • MySQL • Stripe API
-
----
-
-## Project Categories
-
-| Category | Projects | Technologies Used |
-|----------|----------|------------------|
-| **Business Management** | ERP, CRM, Accounting Systems | Laravel, React, MySQL |
-| **E-commerce** | Online Stores, Payment Systems | WooCommerce, Magento, Stripe |
-| **Education** | Learning Platforms, School Management | React, Node.js, MongoDB |
-| **Healthcare** | Clinic Management, Booking Systems | PHP, Laravel, Bootstrap |
-| **AI/ML** | Computer Vision, Smart Systems | Python, TensorFlow, OpenCV |
-| **Mobile Apps** | Cross-platform Applications | Flutter, Dart |
-| **Hospitality** | Restaurant & Hotel Management | Laravel, MySQL, Bootstrap |
-
----
-
-## Architecture & Design Patterns
-
+ 
+## 🏗️ Architecture Principles
+ 
 ```
-✓ Multi-Tenant SaaS Architecture (Database-per-Tenant)
-✓ Modular Monolith Design
-✓ RESTful API Design
-✓ Repository & Service Layer Pattern
-✓ Event-Driven Architecture
-✓ Domain-Driven Design (DDD)
-✓ SOLID Principles
-✓ Clean Code Practices
+✦  Multi-Tenant SaaS (Database-per-Tenant & Shared DB)
+✦  RESTful API Design & API Gateway Patterns
+✦  Queue Management & Event-Driven Architecture
+✦  Domain-Driven Design (DDD) & Service Layer Pattern
+✦  RBAC & Enterprise-Grade Security
+✦  CI/CD with Automated Testing (PHPUnit)
+✦  SOLID Principles & Clean Code
 ```
-
+ 
 ---
-
-## Current Focus
-
-- **Microservices Architecture** - Building scalable distributed systems
-- **Cloud-Native Development** - Leveraging AWS and Azure services
-- **AI Integration** - Implementing machine learning in business applications
-- **Data Analytics** - Creating intelligent reporting and dashboards
-- **Cybersecurity** - Implementing robust security measures
-
+ 
+## 📊 GitHub Stats
+ 
+<div align="center">
+ 
+![Dhiaa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dhiaamostafa46&show_icons=true&hide_border=true&title_color=1A56DB&icon_color=1A56DB&text_color=1E293B&bg_color=ffffff)
+ 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dhiaamostafa46&layout=compact&hide_border=true&title_color=1A56DB&text_color=1E293B&bg_color=ffffff)
+ 
+</div>
+ 
 ---
-
-## Let's Connect
-
-I'm always open to discussing new projects, innovative ideas, or opportunities to be part of your vision.
-
-**Open for:** Consulting • Architecture Review • System Design • Freelance Projects
-
-**Contact:**
-- LinkedIn: [linkedin.com/in/dhiaamostafa](https://www.linkedin.com/in/dhiaamostafa/)
-- Portfolio: [dhiaamostafa.com](https://dhiaamostafa.com/)
-- Email: dhiaamostafa46@gmail.com
-
----
-
-*"Building scalable solutions that drive business growth"*
+ 
+## 📬 Let's Build Something
+ 
+I'm open to **consulting**, **architecture reviews**, **freelance projects**, and full-time opportunities.
+ 
+<div align="center">
+ 
+[![Portfolio](https://img.shields.io/badge/View%20Portfolio-dhiaamostafa.com-1A56DB?style=for-the-badge)](https://dhiaamostafa.com/)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhiaamostafa/)
+ 
+</div>
+ 
+<br/>
+ 
+<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=80&section=footer"/>
+</div>
