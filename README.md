@@ -1,184 +1,99 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=130&section=header&text=Dhiaa%20Mostafa&fontSize=48&fontColor=ffffff&fontAlignY=60&desc=Senior%20Back-End%20Engineer&fontAlign=50"/>
-
-</div>
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhiaamostafa/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaamostafa46@gmail.com)
-
-</div>
+# Dhiaa Mostafa
+Senior Back‑End Engineer — Node.js • ASP.NET Core • PHP • Python
+Website: https://dhiaamostafa.com • LinkedIn: https://www.linkedin.com/in/dhiaamostafa/ • Email: dhiaamostafa46@gmail.com
 
 ---
 
-## 🚀 At a Glance
+## Professional Summary
+Experienced backend engineer delivering high‑availability, enterprise SaaS platforms. Proven track record integrating ERPs for 500+ clients, improving API performance, and operating large real‑time systems for thousands of agents.
 
-<div align="center">
-
-| 🚚 7,000+ | 🏢 500+ | ⚡ 40%+ | 🛠️ 10+ |
-|:---:|:---:|:---:|:---:|
-| Delivery agents on a single SaaS platform | Enterprise clients through ERP integrations | API response time improvement | Production systems delivered |
-
-</div>
+I design and implement scalable server-side systems using Node.js, ASP.NET Core, PHP, and Python with a focus on reliability, observability, and maintainability.
 
 ---
 
-## 🧠 About Me
-
-I am a Senior Back-End Engineer based in Riyadh, Saudi Arabia with 5+ years of experience building scalable, secure, and maintainable systems for enterprise environments.
-
-I specialize in Laravel-based SaaS architectures, ERP integrations, and real-time applications — systems that power thousands of delivery agents and synchronize hundreds of companies.
-
-> I don't just write code — I design systems that scale, secure, and sustain.
+## Key Achievements
+- Architected and launched a multi‑tenant logistics platform serving 7,000+ active delivery agents with real‑time GPS tracking.
+- Led ERP integrations across 500+ enterprise customers (finance, HR, inventory), enabling automated accounting and data flows.
+- Implemented Redis-based queue pipelines and event-driven processing to handle high throughput and peak loads.
+- Improved API response times and maintained 99%+ uptime for critical services.
 
 ---
 
-## 🔧 Tech Stack
-
-### ⚙️ Back-End
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square)
-![PHPUnit](https://img.shields.io/badge/PHPUnit-366488?style=flat-square)
-
-### 🗄️ Databases & Queues
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-
-### ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
-
-### 🎨 Front-End & Mobile
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+## Core Competencies
+- Architecture: Multi‑tenancy, API Gateway patterns, service layer & repository patterns
+- Scalability: WebSockets, Redis queues, event‑driven design, horizontal scaling
+- DevOps & QA: Containerization, CI/CD (GitHub Actions/GitLab CI), automated testing, monitoring
+- Data: MySQL, PostgreSQL, Elasticsearch, Redis
+- Languages & Frameworks: JavaScript/TypeScript (Node.js), C# (ASP.NET Core), PHP, Python
 
 ---
 
-## 🏆 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏢 Evix ERP
-**Cloud ERP & Accounting Platform**
-
-Multi-tenant SaaS serving 500+ enterprise clients with full accounting, HR, inventory, and logistics modules.
-
-- Modular Laravel 10 architecture (8 modules)
-- Real-time WebSockets for live tracking
-- Redis queues for high-throughput jobs
-- Full REST API with Swagger documentation
-- 99%+ uptime under peak load
-
-`Laravel` `Redis` `WebSockets` `MySQL` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-### 🚚 SaaS Logistics Platform
-**Real-Time Delivery Management**
-
-Multi-tenant platform scaled to 7,000+ active delivery agents with GPS tracking and sub-domain architecture.
-
-- Sub-domain multi-tenancy with full data isolation
-- Real-time GPS tracking via WebSockets
-- CI/CD with GitHub Actions and Docker
-- RBAC and enterprise-grade security
-
-`Laravel` `WebSockets` `Redis` `AWS` `PHPUnit`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 👥 HR Management System
-**Enterprise HR Automation**
-
-Full HR platform covering attendance, automated payroll, leave management, and a mobile employee app.
-
-- Automated payroll engine
-- Queue-based background processing
-- Configurable policy rules engine
-- Mobile REST API for employees
-
-`Laravel` `MySQL` `Redis Queues` `PHPUnit`
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 Client Websites Portfolio
-**Production Websites Delivered**
-
-Multiple production websites built and deployed for real clients across different industries.
-
-- [actesgroup.com](https://actesgroup.com) — Solar Energy Company
-- [miranedu.com](https://miranedu.com) — E-Learning Platform
-- [barmgely.com](https://barmgely.com) — Web Agency Platform
-- [musanid.sa](https://musanid.sa) — Digital Transformation
-
-`Laravel` `React` `Tailwind CSS` `MySQL`
-
-</td>
-</tr>
-</table>
+## Tools & Technologies
+Node.js • ASP.NET Core • PHP • Python • GraphQL • WebSockets • REST APIs
+MySQL • PostgreSQL • Redis • Elasticsearch
+Docker • AWS • GitHub Actions • GitLab CI • Prometheus • Grafana
 
 ---
 
-## 🏗️ Architecture Principles
+## Selected Projects (Role & Impact)
 
-```
-✦ SaaS Multi-Tenancy (sub-domain, data isolation, shared DB)
-✦ RESTful API Design & API Gateway Patterns
-✦ Queue Management & Event-Driven Architecture (Redis Queues)
-✦ Repository Pattern & Service Layer
-✦ RBAC & Enterprise-Grade Security
-✦ CI/CD with Automated Testing (PHPUnit)
-✦ SOLID Principles & Clean Code
-```
+### Evix ERP — Cloud ERP & Accounting Platform
+- Role: Lead backend architect
+- Overview: Multi‑tenant ERP platform providing accounting, HR, inventory, and logistics for enterprise customers.
+- Impact: Delivered modular architecture, ERP integrations, and real‑time modules used by hundreds of clients.
+- Tech (examples): ASP.NET Core • MySQL/PostgreSQL • Redis • Docker
+
+### SaaS Logistics Platform — Real‑time Delivery Management
+- Role: Principal backend engineer
+- Overview: Multi‑tenant delivery management platform with GPS tracking and mobile agent integrations.
+- Impact: Scaled to thousands of active agents with real‑time location streaming and high reliability.
+- Tech (examples): Node.js • WebSockets • Redis • AWS • Docker
+
+### HR Management System — Enterprise HR Automation
+- Role: Backend lead
+- Overview: Attendance, payroll automation, leave management, and mobile APIs.
+- Impact: Automated payroll engine and queue-based workflows to handle peak processing loads.
+- Tech (examples): PHP • Python • Redis • MySQL
+
+### Client Websites & Deployments
+- Actesgroup, MiranEdu, Barmgely, Musanid — production websites and integrations
+- Tech (examples): PHP • Node.js • React • Tailwind
 
 ---
 
-## 📊 GitHub Stats
+## Architecture Principles
+- SaaS Multi‑tenancy (sub‑domain + data isolation)
+- Event‑driven design & queue management for reliability and throughput
+- Clear separation: Repository pattern, Service layer, and bounded contexts
+- RESTful APIs, API Gateway patterns, and GraphQL where applicable
+- RBAC and enterprise‑grade security controls
+- CI/CD with automated testing, containerized deployments, and monitoring
+
+---
+
+## Metrics
+- 7,000+ active delivery agents (real‑time)
+- 500+ enterprise integrations
+- 99%+ uptime for critical services
+- Significant API response‑time improvements delivered across projects
+
+---
+
+## Projects & Repositories
+I have several projects and repositories across technologies (Node.js, ASP.NET, PHP, Python). If you want, provide links to specific repos or indicate which projects to highlight and I will add direct links and short technical summaries for each.
+
+---
+
+## Contact & Availability
+Open to consulting, architecture reviews, and senior engineering roles.
+- Website: https://dhiaamostafa.com
+- LinkedIn: https://www.linkedin.com/in/dhiaamostafa/
+- Email: dhiaamostafa46@gmail.com
+
+---
 
 <div align="center">
 
 ![Dhiaa's GitHub Stats](https://github-readme-stats.vercel.app/api?username=dhiaamostafa46&show_icons=true&hide_border=true&title_color=1A56DB&icon_color=1A56DB&text_color=1E293B&bg_color=ffffff)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dhiaamostafa46&layout=compact&hide_border=true&title_color=1A56DB&text_color=1E293B&bg_color=ffffff)
-
-</div>
-
----
-
-## 📬 Let's Work Together
-
-Open to **consulting**, **architecture reviews**, **freelance projects**, and full-time opportunities.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dhiaamostafa/)
-&nbsp;
-[![Email](https://img.shields.io/badge/Send%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhiaamostafa46@gmail.com)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=80&section=footer"/>
 </div>
