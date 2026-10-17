@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgArch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bgArch)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Section Title -->
+  <text x="40" y="42" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#38BDF8" letter-spacing="1.5">01 // ENTERPRISE SYSTEM ARCHITECTURE BLUEPRINT</text>
+  <text x="1160" y="42" text-anchor="end" font-family="monospace" font-size="12" fill="#64748B">HIGH-CONCURRENCY MULTI-TENANT SAAS</text>
+  <line x1="40" y1="56" x2="1160" y2="56" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Connecting Pipeline Lines -->
+  <path d="M 290 165 L 330 165" stroke="url(#lineGrad)" stroke-width="2.5" stroke-dasharray="5,5"/>
+  <path d="M 580 165 L 620 165" stroke="url(#lineGrad)" stroke-width="2.5" stroke-dasharray="5,5"/>
+  <path d="M 870 165 L 910 165" stroke="url(#lineGrad)" stroke-width="2.5" stroke-dasharray="5,5"/>
+
+  <!-- Box 1: Edge & Multi-Tenant Gateway -->
+  <g transform="translate(40, 80)">
+    <rect width="250" height="175" rx="12" fill="#111827" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#38BDF8"/>
+    <text x="20" y="34" font-family="sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">1. Multi-Tenant Ingress</text>
+    <text x="20" y="56" font-family="monospace" font-size="11.5" fill="#38BDF8">Subdomain &amp; Tenant Resolver</text>
+    <text x="20" y="84" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Strict Tenant Data Isolation</text>
+    <text x="20" y="106" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• API Gateway &amp; Rate Limiting</text>
+    <text x="20" y="128" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• RBAC &amp; OAuth2 / JWT Guards</text>
+    <text x="20" y="154" font-family="monospace" font-size="11" fill="#64748B">500+ Active Enterprise Tenants</text>
+  </g>
+
+  <!-- Box 2: Modular Domain Core -->
+  <g transform="translate(330, 80)">
+    <rect width="250" height="175" rx="12" fill="#111827" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#6366F1"/>
+    <text x="20" y="34" font-family="sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">2. Modular Domain Core</text>
+    <text x="20" y="56" font-family="monospace" font-size="11.5" fill="#818CF8">DDD • Service &amp; Repo Layers</text>
+    <text x="20" y="84" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Accounting, POS &amp; Inventory</text>
+    <text x="20" y="106" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Automated Payroll &amp; HR Engine</text>
+    <text x="20" y="128" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• AlinmaPay &amp; ZATCA E-Invoicing</text>
+    <text x="20" y="154" font-family="monospace" font-size="11" fill="#64748B">Laravel Modules • ASP.NET Core</text>
+  </g>
+
+  <!-- Box 3: Event Bus & Real-Time Streams -->
+  <g transform="translate(620, 80)">
+    <rect width="250" height="175" rx="12" fill="#111827" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#10B981"/>
+    <text x="20" y="34" font-family="sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">3. Async &amp; Real-Time Bus</text>
+    <text x="20" y="56" font-family="monospace" font-size="11.5" fill="#34D399">Redis Streams &amp; WebSockets</text>
+    <text x="20" y="84" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Live GPS Telemetry Streaming</text>
+    <text x="20" y="106" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• High-Throughput Queue Workers</text>
+    <text x="20" y="128" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Event-Driven Webhook Dispatch</text>
+    <text x="20" y="154" font-family="monospace" font-size="11" fill="#64748B">7,000+ Concurrent Agents</text>
+  </g>
+
+  <!-- Box 4: AI & Observability Layer -->
+  <g transform="translate(910, 80)">
+    <rect width="250" height="175" rx="12" fill="#111827" stroke="#334155" stroke-width="1.5"/>
+    <rect x="0" y="0" width="250" height="6" rx="3" fill="#F59E0B"/>
+    <text x="20" y="34" font-family="sans-serif" font-size="15" font-weight="700" fill="#F8FAFC">4. AI &amp; Cloud Ops</text>
+    <text x="20" y="56" font-family="monospace" font-size="11.5" fill="#FBBF24">LLM Pipelines &amp; Zero-Downtime</text>
+    <text x="20" y="84" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Google Gemini Multimodal SDK</text>
+    <text x="20" y="106" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Computer Vision (Eyein Lenses)</text>
+    <text x="20" y="128" font-family="sans-serif" font-size="12.5" fill="#94A3B8">• Docker, CI/CD &amp; AWS Scaling</text>
+    <text x="20" y="154" font-family="monospace" font-size="11" fill="#64748B">99.9% Uptime • 40% Faster APIs</text>
+  </g>
+
+  <!-- Footer Note -->
+  <text x="600" y="292" text-anchor="middle" font-family="monospace" font-size="12" fill="#94A3B8">
+    Designed for horizontal scalability, tenant isolation, and fault-tolerant enterprise operations
+  </text>
+</svg>

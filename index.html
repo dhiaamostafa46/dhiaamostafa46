@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ضياء مصطفى | Dhiaa Mostafa — Senior Back-End & Enterprise Systems Architect</title>
+  <meta name="description" content="Senior Back-End Engineer & Enterprise SaaS / ERP Architect in Riyadh, Saudi Arabia. Creator of Evix Cloud ERP (500+ companies), Real-Time Logistics (7,000+ agents), and Laravel Open-Source Packages." />
+  
+  <!-- Google Fonts: Cairo (Arabic), Plus Jakarta Sans (English), JetBrains Mono (Code) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-base: #060911;
+      --bg-surface: #0c1220;
+      --bg-card: rgba(15, 23, 42, 0.72);
+      --bg-card-hover: rgba(22, 33, 58, 0.88);
+      --border-subtle: rgba(148, 163, 184, 0.12);
+      --border-highlight: rgba(56, 189, 248, 0.4);
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent-cyan: #38bdf8;
+      --accent-indigo: #6366f1;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --accent-purple: #a855f7;
+      --radius-xl: 20px;
+      --radius-lg: 14px;
+      --radius-md: 10px;
+      --font-ar: 'Cairo', sans-serif;
+      --font-en: 'Plus Jakarta Sans', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+    }
+
+    body {
+      font-family: var(--font-ar);
+      background-color: var(--bg-base);
+      background-image: 
+        radial-gradient(circle at 12% 8%, rgba(56, 189, 248, 0.11), transparent 32%),
+        radial-gradient(circle at 88% 18%, rgba(99, 102, 241, 0.10), transparent 35%),
+        radial-gradient(circle at 50% 85%, rgba(16, 185, 129, 0.06), transparent 40%),
+        linear-gradient(to right, rgba(30, 41, 59, 0.22) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(30, 41, 59, 0.22) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 44px 44px, 44px 44px;
+      color: var(--text-primary);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    html[dir="ltr"] body {
+      font-family: var(--font-en);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Top Sticky Glass Navbar */
+    .navbar {
+      position: sticky;
+      top: 16px;
+      z-index: 100;
+      margin: 16px auto 32px;
+      max-width: 1232px;
+      background: rgba(12, 18, 32, 0.82);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-subtle);
+      border-radius: 999px;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      box-shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.6);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--text-primary);
+      font-weight: 800;
+      font-size: 1.05rem;
+    }
+
+    .brand-badge {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-indigo));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-mono);
+      font-weight: 800;
+      font-size: 0.9rem;
+      color: #060911;
+      box-shadow: 0 0 16px rgba(56, 189, 248, 0.45);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 999px;
+      transition: all 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .lang-btn {
+      background: rgba(56, 189, 248, 0.12);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent-cyan);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .lang-btn:hover {
+      background: var(--accent-cyan);
+      color: #060911;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-indigo));
+      color: #060911;
+      font-weight: 700;
+      font-size: 0.88rem;
+      padding: 8px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 8px 25px rgba(56, 189, 248, 0.35);
+    }
+
+    .btn-outline {
+      background: rgba(30, 41, 59, 0.55);
+      color: var(--text-primary);
+      border: 1px solid var(--border-subtle);
+      font-weight: 600;
+      font-size: 0.88rem;
+      padding: 8px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .btn-outline:hover {
+      border-color: var(--accent-cyan);
+      color: var(--accent-cyan);
+      background: rgba(56, 189, 248, 0.08);
+    }
+
+    /* Bento Grid Layout */
+    .bento-hero {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      margin-bottom: 64px;
+    }
+
+    .bento-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 28px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .bento-card:hover {
+      border-color: rgba(56, 189, 248, 0.3);
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.55);
+    }
+
+    /* Card Spans */
+    .span-8 { grid-column: span 8; }
+    .span-4 { grid-column: span 4; }
+    .span-6 { grid-column: span 6; }
+    .span-12 { grid-column: span 12; }
+
+    /* Status Pill */
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 14px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #34d399;
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-emerald);
+      box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+      70% { box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+    }
+
+    .hero-title {
+      font-size: clamp(2rem, 3.6vw, 3.1rem);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 14px;
+      letter-spacing: -0.02em;
+    }
+
+    .gradient-text {
+      background: linear-gradient(90deg, #38bdf8, #818cf8, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-secondary);
+      max-width: 680px;
+      margin-bottom: 24px;
+    }
+
+    .hero-cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    /* Telemetry Metrics Card */
+    .telemetry-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .metric-box {
+      background: rgba(9, 13, 22, 0.75);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 16px;
+      transition: border-color 0.2s ease;
+    }
+
+    .metric-box:hover {
+      border-color: var(--accent-cyan);
+    }
+
+    .metric-val {
+      font-size: 1.75rem;
+      font-weight: 900;
+      font-family: var(--font-en);
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+
+    .metric-label {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+    }
+
+    /* Interactive Architecture Blueprint Card */
+    .arch-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 16px 0;
+    }
+
+    .arch-tab {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      padding: 8px 14px;
+      border-radius: var(--radius-md);
+      font-family: inherit;
+      font-size: 0.84rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .arch-tab.active, .arch-tab:hover {
+      background: rgba(56, 189, 248, 0.14);
+      border-color: var(--accent-cyan);
+      color: var(--text-primary);
+    }
+
+    .arch-panel {
+      background: #070b14;
+      border: 1px solid rgba(56, 189, 248, 0.22);
+      border-radius: var(--radius-lg);
+      padding: 18px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .arch-code {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: #cbd5e1;
+      background: rgba(15, 23, 42, 0.75);
+      padding: 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+      direction: ltr;
+      text-align: left;
+      overflow-x: auto;
+      line-height: 1.55;
+    }
+
+    /* Tech Stack Pills */
+    .stack-group {
+      margin-bottom: 14px;
+    }
+
+    .stack-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .stack-group-title {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 8px;
+    }
+
+    .pill-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .tech-pill {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      font-weight: 600;
+      padding: 5px 11px;
+      border-radius: 8px;
+      background: rgba(30, 41, 59, 0.65);
+      border: 1px solid var(--border-subtle);
+      color: #e2e8f0;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .tech-pill span.dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+
+    /* Section Headers */
+    .section-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .section-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .section-title {
+      font-size: clamp(1.55rem, 2.5vw, 2.2rem);
+      font-weight: 900;
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filter-btn {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-secondary);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-family: inherit;
+      font-size: 0.86rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--accent-cyan);
+      color: #060911;
+      border-color: var(--accent-cyan);
+    }
+
+    /* Case Studies & Visual Projects Grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+      gap: 24px;
+      margin-bottom: 72px;
+    }
+
+    .project-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: all 0.28s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      border-color: var(--border-highlight);
+      box-shadow: 0 22px 44px -16px rgba(0, 0, 0, 0.7);
+    }
+
+    .project-thumb-wrap {
+      position: relative;
+      height: 220px;
+      background: #050811;
+      overflow: hidden;
+      cursor: pointer;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .project-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+      transition: transform 0.5s ease;
+    }
+
+    .project-card:hover .project-thumb-wrap img {
+      transform: scale(1.04);
+    }
+
+    .thumb-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(6, 9, 17, 0.92) 0%, rgba(6, 9, 17, 0.2) 55%, transparent 100%);
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      padding: 14px 18px;
+    }
+
+    .category-badge {
+      background: rgba(15, 23, 42, 0.88);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      color: var(--accent-cyan);
+      font-size: 0.74rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .preview-trigger-badge {
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .project-body {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .project-title {
+      font-size: 1.22rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: var(--text-primary);
+    }
+
+    .project-role {
+      font-size: 0.8rem;
+      font-family: var(--font-mono);
+      color: var(--accent-emerald);
+      margin-bottom: 10px;
+    }
+
+    .project-desc {
+      font-size: 0.92rem;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+      flex: 1;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 18px;
+    }
+
+    .project-tag {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: rgba(30, 41, 59, 0.7);
+      color: #cbd5e1;
+      border: 1px solid rgba(148, 163, 184, 0.14);
+    }
+
+    .project-links {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border-subtle);
+    }
+
+    .project-link-btn {
+      font-size: 0.83rem;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 7px 14px;
+      border-radius: 8px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .project-link-btn.live {
+      background: rgba(56, 189, 248, 0.14);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
+
+    .project-link-btn.live:hover {
+      background: var(--accent-cyan);
+      color: #060911;
+    }
+
+    .project-link-btn.repo {
+      background: rgba(30, 41, 59, 0.65);
+      color: var(--text-primary);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .project-link-btn.repo:hover {
+      border-color: var(--text-primary);
+    }
+
+    /* Open Source & GitHub Repositories Matrix */
+    .repos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+      gap: 16px;
+      margin-bottom: 72px;
+    }
+
+    .repo-card {
+      background: rgba(12, 18, 32, 0.8);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.22s ease;
+    }
+
+    .repo-card:hover {
+      border-color: var(--accent-cyan);
+      transform: translateY(-3px);
+      background: rgba(18, 27, 48, 0.9);
+    }
+
+    .repo-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .repo-name {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      direction: ltr;
+    }
+
+    .repo-lang {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: rgba(99, 102, 241, 0.16);
+      color: #a5b4fc;
+      border: 1px solid rgba(99, 102, 241, 0.3);
+    }
+
+    .repo-desc {
+      font-size: 0.87rem;
+      color: var(--text-secondary);
+      margin-bottom: 14px;
+    }
+
+    .repo-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Experience Timeline */
+    .timeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      margin-bottom: 72px;
+    }
+
+    .timeline-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-xl);
+      padding: 24px;
+      position: relative;
+    }
+
+    .timeline-period {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      color: var(--accent-cyan);
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .timeline-role {
+      font-size: 1.15rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .timeline-company {
+      font-size: 0.9rem;
+      color: var(--accent-emerald);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+
+    .timeline-list {
+      padding-inline-start: 18px;
+      color: var(--text-secondary);
+      font-size: 0.88rem;
+    }
+
+    .timeline-list li {
+      margin-bottom: 6px;
+    }
+
+    /* Lightbox Modal for Screenshots */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 1000;
+      background: rgba(3, 6, 12, 0.88);
+      backdrop-filter: blur(12px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal-content {
+      background: #0b1120;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: var(--radius-xl);
+      max-width: 1060px;
+      width: 100%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+    }
+
+    .modal-header {
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .modal-title {
+      font-weight: 800;
+      font-size: 1.1rem;
+    }
+
+    .modal-close {
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.35);
+      color: #f87171;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+
+    .modal-tabs {
+      padding: 10px 24px;
+      background: #070b14;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .modal-img-container {
+      overflow-y: auto;
+      padding: 20px;
+      text-align: center;
+      background: #050811;
+      flex: 1;
+    }
+
+    .modal-img-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 48px 0 64px;
+      text-align: center;
+      color: var(--text-secondary);
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: var(--accent-emerald);
+      color: #04130d;
+      font-weight: 800;
+      padding: 10px 22px;
+      border-radius: 999px;
+      z-index: 2000;
+      opacity: 0;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      transform: translateX(-50%) translateY(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 992px) {
+      .span-8, .span-4, .span-6 {
+        grid-column: span 12;
+      }
+      .arch-panel {
+        grid-template-columns: 1fr;
+      }
+      .nav-links {
+        display: none;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      .metrics-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <div class="container">
+    <nav class="navbar">
+      <a href="#" class="brand">
+        <span class="brand-badge">DM</span>
+        <span data-i18n="nav_brand">ضياء مصطفى • Dhiaa Mostafa</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#architecture" data-i18n="nav_arch">الهندسة المعمارية</a></li>
+        <li><a href="#case-studies" data-i18n="nav_projects">الأنظمة والمشاريع</a></li>
+        <li><a href="#open-source" data-i18n="nav_oss">المصادر المفتوحة (27)</a></li>
+        <li><a href="#experience" data-i18n="nav_exp">الخبرة المهنية</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="lang-btn" id="langToggle" onclick="toggleLanguage()">
+          🌐 <span id="langLabel">English</span>
+        </button>
+        <a href="mailto:dhiaamostafa46@gmail.com" class="btn-primary" data-i18n="nav_hire">تواصل معي</a>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container">
+
+    <!-- BENTO HERO GRID -->
+    <section class="bento-hero" id="architecture">
+      
+      <!-- Card 1: Main Executive Identity (Span 8) -->
+      <div class="bento-card span-8">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span data-i18n="hero_status">مهندس برمجيات أول ومصمم معمارية أنظمة • الرياض، السعودية 🇸🇦</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span data-i18n="hero_greeting">أبني أنظمة سحابية ومؤسسية</span><br/>
+          <span class="gradient-text" data-i18n="hero_highlight">تعمل تحت أقصى ضغط دون توقف.</span>
+        </h1>
+
+        <p class="hero-subtitle" data-i18n="hero_bio">
+          أكثر من 5 سنوات من الخبرة في هندسة منصات الـ SaaS متعددة المستأجرين (Multi-Tenant)، وأنظمة التخطيط المؤسسي السحابية (Evix Cloud ERP)، ومحركات التتبع اللوجستي اللحظي لآلاف المندوبين، وتكاملات الذكاء الاصطناعي والمدفوعات البنكية باستخدام Laravel و ASP.NET Core و Node.js و React.
+        </p>
+
+        <div class="hero-cta-row">
+          <a href="#case-studies" class="btn-primary" data-i18n="cta_explore">🚀 استكشف الأنظمة الحية والصور</a>
+          <a href="https://github.com/dhiaamostafa46" target="_blank" rel="noopener" class="btn-outline">📦 GitHub (@dhiaamostafa46)</a>
+          <a href="https://www.linkedin.com/in/dhiaamostafa/" target="_blank" rel="noopener" class="btn-outline">💼 LinkedIn</a>
+          <button class="btn-outline" onclick="copyEmail()" data-i18n="cta_copy_email">📋 نسخ البريد الإلكتروني</button>
+        </div>
+      </div>
+
+      <!-- Card 2: Live Production Telemetry (Span 4) -->
+      <div class="bento-card span-4">
+        <div class="telemetry-header">
+          <span data-i18n="telemetry_title">// أرقام الأداء الفعلي في الإنتاج</span>
+          <span>● LIVE SLA</span>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-box">
+            <div class="metric-val" style="color: var(--accent-cyan);">7,000+</div>
+            <div class="metric-label" data-i18n="metric_1">مندوب توصيل متصل لحظياً عبر GPS و WebSockets</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val" style="color: var(--accent-emerald);">500+</div>
+            <div class="metric-label" data-i18n="metric_2">منشأة وشركة تعمل على أنظمة ERP السحابية</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val" style="color: var(--accent-purple);">99.9%</div>
+            <div class="metric-label" data-i18n="metric_3">استقرار وجاهزية الأنظمة الحرجة تحت الضغط</div>
+          </div>
+          <div class="metric-box">
+            <div class="metric-val" style="color: var(--accent-amber);">27+</div>
+            <div class="metric-label" data-i18n="metric_4">مستودع وحزمة برمجية ومنصة إنتاجية منجزة</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: Interactive System Architecture Blueprint (Span 7) -->
+      <div class="bento-card span-8">
+        <span class="section-eyebrow">SYSTEM ARCHITECTURE BLUEPRINT</span>
+        <h2 style="font-size: 1.35rem; font-weight: 800;" data-i18n="arch_card_title">كيف أصمم البنية التحتية للأنظمة المؤسسية الضخمة؟</h2>
+
+        <div class="arch-tabs">
+          <button class="arch-tab active" onclick="selectArchTab(0)" id="archBtn0" data-i18n="arch_tab_0">1. عزل المستأجرين (Multi-Tenancy)</button>
+          <button class="arch-tab" onclick="selectArchTab(1)" id="archBtn1" data-i18n="arch_tab_1">2. النواة المحاسبية و DDD</button>
+          <button class="arch-tab" onclick="selectArchTab(2)" id="archBtn2" data-i18n="arch_tab_2">3. البث اللحظي والطوابير</button>
+          <button class="arch-tab" onclick="selectArchTab(3)" id="archBtn3" data-i18n="arch_tab_3">4. الذكاء الاصطناعي و FinTech</button>
+        </div>
+
+        <div class="arch-panel">
+          <div>
+            <h3 id="archPanelTitle" style="font-size: 1.1rem; font-weight: 800; color: var(--accent-cyan); margin-bottom: 8px;">
+              عزل قواعد البيانات والنطاقات الفرعية (Database-per-Tenant)
+            </h3>
+            <p id="archPanelDesc" style="font-size: 0.9rem; color: var(--text-secondary);">
+              تصميم معمارية SaaS تضمن عزلاً تاماً لبيانات كل شركة من بين +500 عميل عبر توجيه النطاقات الفرعية تلقائياً، وإدارة الصلاحيات (RBAC)، وبوابات API محمية.
+            </p>
+          </div>
+          <pre class="arch-code" id="archPanelCode">TenantResolver::resolve($request->host())
+  ->switchDatabaseConnection()
+  ->enforceRBACPolicy()
+  ->dispatchThroughApiGateway();</pre>
+        </div>
+      </div>
+
+      <!-- Card 4: Core Tech Stack Matrix (Span 4) -->
+      <div class="bento-card span-4">
+        <span class="section-eyebrow">TECH RADAR</span>
+        <h2 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 14px;" data-i18n="stack_card_title">الترسانة التقنية الأساسية</h2>
+
+        <div class="stack-group">
+          <div class="stack-group-title">Back-End & Architecture</div>
+          <div class="pill-wrap">
+            <span class="tech-pill"><span class="dot" style="background:#ff2d20"></span>Laravel 10/11</span>
+            <span class="tech-pill"><span class="dot" style="background:#777bb4"></span>PHP 8.x</span>
+            <span class="tech-pill"><span class="dot" style="background:#512bd4"></span>ASP.NET Core / C#</span>
+            <span class="tech-pill"><span class="dot" style="background:#339933"></span>Node.js</span>
+            <span class="tech-pill"><span class="dot" style="background:#3776ab"></span>Python</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <div class="stack-group-title">Data, Queues & Real-Time</div>
+          <div class="pill-wrap">
+            <span class="tech-pill"><span class="dot" style="background:#4479a1"></span>MySQL / PostgreSQL</span>
+            <span class="tech-pill"><span class="dot" style="background:#dc382d"></span>Redis Streams</span>
+            <span class="tech-pill"><span class="dot" style="background:#38bdf8"></span>Laravel Reverb / WS</span>
+            <span class="tech-pill"><span class="dot" style="background:#005571"></span>Elasticsearch</span>
+          </div>
+        </div>
+
+        <div class="stack-group">
+          <div class="stack-group-title">Front-End, Cloud & AI</div>
+          <div class="pill-wrap">
+            <span class="tech-pill"><span class="dot" style="background:#3178c6"></span>TypeScript</span>
+            <span class="tech-pill"><span class="dot" style="background:#61dafb"></span>React / Next.js</span>
+            <span class="tech-pill"><span class="dot" style="background:#4fc08d"></span>Vue.js</span>
+            <span class="tech-pill"><span class="dot" style="background:#512bd4"></span>Blazor</span>
+            <span class="tech-pill"><span class="dot" style="background:#2496ed"></span>Docker & AWS</span>
+            <span class="tech-pill"><span class="dot" style="background:#a855f7"></span>Gemini AI</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- VISUAL CASE STUDIES & LIVE PLATFORMS -->
+    <section id="case-studies">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">PRODUCTION CASE STUDIES & SCREENSHOTS</span>
+          <h2 class="section-title" data-i18n="projects_heading">الأنظمة المؤسسية والمنصات الحية</h2>
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-btn active" onclick="filterProjects('all', this)" data-i18n="filter_all">الكل (12)</button>
+          <button class="filter-btn" onclick="filterProjects('erp', this)" data-i18n="filter_erp">أنظمة ERP و SaaS</button>
+          <button class="filter-btn" onclick="filterProjects('ai', this)" data-i18n="filter_ai">الذكاء الاصطناعي و FinTech</button>
+          <button class="filter-btn" onclick="filterProjects('portals', this)" data-i18n="filter_portals">منصات وعملاء</button>
+        </div>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid"></div>
+    </section>
+
+    <!-- VERIFIED GITHUB OPEN SOURCE REPOSITORIES -->
+    <section id="open-source">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">VERIFIED GITHUB ECOSYSTEM</span>
+          <h2 class="section-title" data-i18n="oss_heading">حزم برمجية ومستودعات مفتوحة المصدر</h2>
+        </div>
+        <a href="https://github.com/dhiaamostafa46?tab=repositories" target="_blank" rel="noopener" class="btn-outline" data-i18n="oss_view_all">
+          استعراض كافة الـ 27 مستودع على GitHub ↗
+        </a>
+      </div>
+
+      <div class="repos-grid" id="reposGrid"></div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section id="experience">
+      <div class="section-header">
+        <div>
+          <span class="section-eyebrow">CAREER TRAJECTORY</span>
+          <h2 class="section-title" data-i18n="exp_heading">المسيرة المهنية والقيادة التقنية</h2>
+        </div>
+      </div>
+
+      <div class="timeline-grid" id="timelineGrid"></div>
+    </section>
+
+  </main>
+
+  <!-- Screenshot Lightbox Modal -->
+  <div class="modal-backdrop" id="screenshotModal" onclick="closeModalOnBackdrop(event)">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="modalTitle">Project Preview</div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-tabs" id="modalTabs"></div>
+      <div class="modal-img-container">
+        <img id="modalImage" src="" alt="System Screenshot" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastMsg">تم نسخ البريد الإلكتروني: dhiaamostafa46@gmail.com</div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); margin-bottom: 10px;" data-i18n="footer_title">
+        هل تبحث عن مهندس معماري لقيادة وبناء منصتك القادمة؟
+      </h3>
+      <p style="max-width: 580px; margin: 0 auto 24px;" data-i18n="footer_sub">
+        متاح للاستشارات المعمارية، مراجعة الأنظمة الضخمة، والمناصب القيادية كـ Senior / Principal Back-End Engineer.
+      </p>
+      <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; margin-bottom: 28px;">
+        <a href="mailto:dhiaamostafa46@gmail.com" class="btn-primary">✉️ dhiaamostafa46@gmail.com</a>
+        <a href="https://www.linkedin.com/in/dhiaamostafa/" target="_blank" rel="noopener" class="btn-outline">LinkedIn ↗</a>
+        <a href="https://github.com/dhiaamostafa46" target="_blank" rel="noopener" class="btn-outline">GitHub ↗</a>
+      </div>
+      <p style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">
+        © 2026 Dhiaa Mostafa • Engineered with Precision in Riyadh, Saudi Arabia
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    let currentLang = 'ar';
+    let currentCategory = 'all';
+    let currentArchIndex = 0;
+
+    const i18n = {
+      ar: {
+        nav_brand: "ضياء مصطفى • Dhiaa Mostafa",
+        nav_arch: "الهندسة المعمارية",
+        nav_projects: "الأنظمة والمشاريع",
+        nav_oss: "المصادر المفتوحة (27)",
+        nav_exp: "الخبرة المهنية",
+        nav_hire: "تواصل معي",
+        hero_status: "مهندس برمجيات أول ومصمم معمارية أنظمة • الرياض، السعودية 🇸🇦",
+        hero_greeting: "أبني أنظمة سحابية ومؤسسية",
+        hero_highlight: "تعمل تحت أقصى ضغط دون توقف.",
+        hero_bio: "أكثر من 5 سنوات من الخبرة في هندسة منصات الـ SaaS متعددة المستأجرين (Multi-Tenant)، وأنظمة التخطيط المؤسسي السحابية (Evix Cloud ERP)، ومحركات التتبع اللوجستي اللحظي لآلاف المندوبين، وتكاملات الذكاء الاصطناعي والمدفوعات البنكية باستخدام Laravel و ASP.NET Core و Node.js و React.",
+        cta_explore: "🚀 استكشف الأنظمة الحية والصور",
+        cta_copy_email: "📋 نسخ البريد الإلكتروني",
+        telemetry_title: "// أرقام الأداء الفعلي في الإنتاج",
+        metric_1: "مندوب توصيل متصل لحظياً عبر GPS و WebSockets",
+        metric_2: "منشأة وشركة تعمل على أنظمة ERP السحابية",
+        metric_3: "استقرار وجاهزية الأنظمة الحرجة تحت الضغط",
+        metric_4: "مستودع وحزمة برمجية ومنصة إنتاجية منجزة",
+        arch_card_title: "كيف أصمم البنية التحتية للأنظمة المؤسسية الضخمة؟",
+        arch_tab_0: "1. عزل المستأجرين (Multi-Tenancy)",
+        arch_tab_1: "2. النواة المحاسبية و DDD",
+        arch_tab_2: "3. البث اللحظي والطوابير",
+        arch_tab_3: "4. الذكاء الاصطناعي و FinTech",
+        stack_card_title: "الترسانة التقنية الأساسية",
+        projects_heading: "الأنظمة المؤسسية والمنصات الحية (مع معاينة الشاشات)",
+        filter_all: "الكل (12)",
+        filter_erp: "أنظمة ERP و SaaS",
+        filter_ai: "الذكاء الاصطناعي و FinTech",
+        filter_portals: "منصات وعملاء",
+        oss_heading: "حزم برمجية ومستودعات مفتوحة المصدر (روابط مباشرة)",
+        oss_view_all: "استعراض كافة الـ 27 مستودع على GitHub ↗",
+        exp_heading: "المسيرة المهنية والقيادة التقنية",
+        footer_title: "هل تبحث عن مهندس معماري لقيادة وبناء منصتك القادمة؟",
+        footer_sub: "متاح للاستشارات المعمارية، مراجعة الأنظمة الضخمة، والمناصب القيادية كـ Senior / Principal Back-End Engineer.",
+        preview_btn: "🖼️ معاينة الشاشات",
+        live_btn: "🌐 زيارة المنصة ↗",
+        repo_btn: "📦 المستودع ↗",
+        toast_copied: "تم نسخ البريد الإلكتروني: dhiaamostafa46@gmail.com"
+      },
+      en: {
+        nav_brand: "Dhiaa Mostafa • Systems Architect",
+        nav_arch: "Architecture",
+        nav_projects: "Case Studies",
+        nav_oss: "Open Source (27)",
+        nav_exp: "Experience",
+        nav_hire: "Hire / Contact",
+        hero_status: "Senior Back-End Engineer & Enterprise Systems Architect • Riyadh, KSA 🇸🇦",
+        hero_greeting: "Architecting Cloud ERP & SaaS Platforms",
+        hero_highlight: "Built to Scale Under Real Enterprise Load.",
+        hero_bio: "5+ years designing fault-tolerant multi-tenant SaaS systems, cloud ERP cores (Evix ERP serving 500+ businesses), real-time GPS logistics engines (7,000+ concurrent agents), and AI/FinTech integrations across Laravel, ASP.NET Core, Node.js, and React.",
+        cta_explore: "🚀 Explore Live Systems & Screenshots",
+        cta_copy_email: "📋 Copy Email Address",
+        telemetry_title: "// PRODUCTION TELEMETRY & IMPACT",
+        metric_1: "Active delivery agents tracked in real time via GPS",
+        metric_2: "Enterprise organizations powered by ERP integrations",
+        metric_3: "Production SLA uptime across mission-critical services",
+        metric_4: "Open-source packages & production systems delivered",
+        arch_card_title: "How I Architect High-Concurrency Enterprise Systems",
+        arch_tab_0: "1. Multi-Tenant Isolation",
+        arch_tab_1: "2. Modular DDD & ERP Core",
+        arch_tab_2: "3. Real-Time & Redis Queues",
+        arch_tab_3: "4. AI & FinTech Gateways",
+        stack_card_title: "Core Engineering Stack",
+        projects_heading: "Flagship Enterprise Systems & Live Case Studies",
+        filter_all: "All Systems (12)",
+        filter_erp: "Cloud ERP & SaaS",
+        filter_ai: "AI & FinTech",
+        filter_portals: "Client Platforms",
+        oss_heading: "Verified Open-Source Packages & GitHub Repositories",
+        oss_view_all: "Explore All 27 Repositories on GitHub ↗",
+        exp_heading: "Professional Experience & Technical Leadership",
+        footer_title: "Ready to Architect Your Next Enterprise Platform?",
+        footer_sub: "Available for Senior/Principal Back-End Engineering roles, SaaS/ERP architecture reviews, and technical leadership.",
+        preview_btn: "🖼️ Screens Preview",
+        live_btn: "🌐 Live Platform ↗",
+        repo_btn: "📦 GitHub Repo ↗",
+        toast_copied: "Copied to clipboard: dhiaamostafa46@gmail.com"
+      }
+    };
+
+    const archSteps = [
+      {
+        title_ar: "عزل قواعد البيانات والنطاقات الفرعية (Database-per-Tenant)",
+        title_en: "Strict Multi-Tenant Data Isolation & Subdomain Provisioning",
+        desc_ar: "تصميم معمارية SaaS تضمن عزلاً تاماً لبيانات كل شركة من بين +500 عميل عبر توجيه النطاقات الفرعية تلقائياً، وإدارة الصلاحيات (RBAC)، وبوابات API محمية.",
+        desc_en: "Automated tenant onboarding with isolated schemas/databases per enterprise client, dynamic connection switching, and granular RBAC policies.",
+        code: `TenantResolver::resolve($request->host())\n  ->switchDatabaseConnection()\n  ->enforceRBACPolicy()\n  ->dispatchThroughApiGateway();`
+      },
+      {
+        title_ar: "النواة المحاسبية المعيارية (Modular Monolith & DDD)",
+        title_en: "Domain-Driven Modular ERP Core (Accounting, POS, HR, Inventory)",
+        desc_ar: "تقسيم النظام إلى وحدات مستقلة (المحاسبة، الفوترة الإلكترونية، المخازن، الموارد البشرية، الأسطول) باستخدام Service & Repository Patterns لضمان سهولة الصيانة والتوسع.",
+        desc_en: "Decoupled domain modules communicating via clean service boundaries and domain events—powering double-entry accounting, POS, payroll, and inventory.",
+        code: `InvoiceIssuedEvent::dispatch($invoice);\n// Triggers async LedgerPosting, InventoryDeduction\n// & ZATCA E-Invoice cryptographic signing`
+      },
+      {
+        title_ar: "البث اللحظي لـ 7,000+ مندوب وطوابير المعالجة (Redis & WebSockets)",
+        title_en: "Real-Time Telemetry & High-Throughput Redis Queue Pipelines",
+        desc_ar: "استقبال ومعالجة إحداثيات GPS اللحظية لآلاف المندوبين عبر WebSockets و Laravel Reverb مع توزيع المهام الثقيلة على عناقيد Redis.",
+        desc_en: "Sub-second GPS location streaming and automated order dispatch for 7,000+ active agents using Redis Streams, Horizon workers, and WebSockets.",
+        code: `ReverbStream::channel("fleet.tenant.{$tenantId}")\n  ->broadcast(new AgentTelemetryUpdated($gpsPayload))\n  ->viaRedisCluster('high-throughput');`
+      },
+      {
+        title_ar: "تكاملات الذكاء الاصطناعي والمدفوعات البنكية (Gemini AI & AlinmaPay)",
+        title_en: "Multimodal AI SDKs, Computer Vision & FinTech Gateways",
+        desc_ar: "بناء حزم برمجية لتكامل Google Gemini AI، وأنظمة الرؤية الحاسوبية للكاميرات الذكية (Eyein Lenses)، وبوابات الدفع البنكي والمحافظ الرقمية.",
+        desc_en: "Bridging enterprise systems with Google Gemini multimodal pipelines, OpenCV/TensorFlow smart surveillance, and Alinma Bank payment reconciliation.",
+        code: `Gemini::multimodal()->withContextCache($schema)\n  ->generateStructuredLeadIntelligence($companyData);`
+      }
+    ];
+
+    const projectsData = [
+      {
+        id: "evix-erp",
+        category: "erp",
+        badge_ar: "نظام ERP سحابي • Multi-Tenant",
+        badge_en: "Multi-Tenant Cloud ERP",
+        title_ar: "منصة إيفكس السحابية (Evix Cloud ERP)",
+        title_en: "Evix Cloud ERP & POS Ecosystem",
+        role_ar: "مهندس معماري رئيسي (Lead Backend Architect)",
+        role_en: "Lead Back-End & Systems Architect",
+        desc_ar: "نظام تخطيط موارد مؤسسي سحابي متكامل يخدم أكثر من 500 شركة، يضم وحدات المحاسبة المالية، نقاط البيع POS، المخزون، الموارد البشرية، وإدارة المركبات مع عزل كامل لبيانات كل منشأة.",
+        desc_en: "Full-scale multi-tenant Cloud ERP serving 500+ businesses across Saudi Arabia with Accounting, POS, Inventory, Fleet, and HR modules.",
+        tags: ["Laravel", "ASP.NET Core", "Multi-Tenancy", "MySQL", "Redis", "Docker"],
+        liveUrl: "https://evix.sa",
+        repoUrl: "",
+        screens: [
+          { label_ar: "لوحة المحاسبة والمبيعات", label_en: "Accounting & POS Dashboard", src: "./img/2026-05-16_evix-sa-ar-admin_01.png" },
+          { label_ar: "الواجهة الحديثة Evix v2", label_en: "Evix v2 Executive UI", src: "./img/2026-05-16_127-0-0-1-5566_01.png" },
+          { label_ar: "تحليلات المخزون والموارد البشرية", label_en: "Inventory & HR Telemetry", src: "./img/2026-05-16_127-0-0-1-5566_02.png" },
+          { label_ar: "المنصة الرسمية (evix.sa)", label_en: "Official Landing (evix.sa)", src: "./img/2026-05-16_evix-sa-ar_01.png" }
+        ]
+      },
+      {
+        id: "evix-superadmin",
+        category: "erp",
+        badge_ar: "إدارة المستأجرين واللوجستيات",
+        badge_en: "SaaS Control Plane & Logistics",
+        title_ar: "مركز التحكم بالمنشآت والمنصة اللوجستية (Eyein SaaS)",
+        title_en: "Multi-Tenant Control Plane & 7,000+ Agent Logistics",
+        role_ar: "مهندس الأنظمة الخلفية الرئيسي (Principal Backend Engineer)",
+        role_en: "Principal Back-End Engineer",
+        desc_ar: "لوحة تحكم مركزية لإدارة المنشآت المشتركة ومراقبة نموها وصلاحياتها، مرتبطة بمحرك لوجستي لحظي يدير أكثر من 7,000 مندوب توصيل عبر WebSockets و Redis.",
+        desc_en: "Centralized SaaS tenant orchestration control plane and real-time GPS delivery management supporting 7,000+ active agents.",
+        tags: ["Node.js", "Laravel Reverb", "WebSockets", "Redis Queues", "AWS"],
+        liveUrl: "https://eyein.sa",
+        repoUrl: "https://github.com/dhiaamostafa46/reverb",
+        screens: [
+          { label_ar: "لوحة إدارة المنشآت (Super Admin)", label_en: "Multi-Tenant Super Admin", src: "./img/screencapture-127-0-0-1-5566-2026-05-16-18_09_28.png" },
+          { label_ar: "منصة عين السحابية (eyein.sa)", label_en: "Eyein SaaS Portal (eyein.sa)", src: "./img/2026-05-16_eyein-sa-home_01.png" }
+        ]
+      },
+      {
+        id: "eyein-lenses",
+        category: "ai",
+        badge_ar: "ذكاء اصطناعي ورؤية حاسوبية",
+        badge_en: "AI Computer Vision Cloud",
+        title_ar: "عدسات عين الذكية (Eyein Lenses AI Surveillance)",
+        title_en: "Eyein Lenses — AI Smart Surveillance Platform",
+        role_ar: "مهندس معماري للأنظمة السحابية والذكاء الاصطناعي",
+        role_en: "AI & Cloud Systems Architect",
+        desc_ar: "منصة سحابية ذكية لإدارة كاميرات المراقبة وتحليل الفيديو في الوقت الفعلي للتعرف على الوجوه والأجسام وإطلاق التنبيهات الفورية للمنشآت.",
+        desc_en: "Cloud-connected AI camera surveillance platform with real-time object detection, facial recognition, and enterprise alert streams.",
+        tags: ["Python", "TensorFlow", "OpenCV", "Laravel", "WebSockets"],
+        liveUrl: "https://lenses.eyein.sa",
+        repoUrl: "",
+        screens: [
+          { label_ar: "منصة عدسات عين (lenses.eyein.sa)", label_en: "Eyein Lenses Platform", src: "./img/2024-07-07_lenses-eyein-sa_01.png" }
+        ]
+      },
+      {
+        id: "leadgen-ai",
+        category: "ai",
+        badge_ar: "أتمتة المبيعات بالذكاء الاصطناعي",
+        badge_en: "AI B2B Lead Intelligence",
+        title_ar: "منصة LeadGen AI لتوليد وتحليل العملاء المحتملين",
+        title_en: "LeadGen AI — Autonomous B2B Prospecting Engine",
+        role_ar: "مبتكر ومطور النظام (Creator & Lead Developer)",
+        role_en: "Creator & Lead Full-Stack Engineer",
+        desc_ar: "منصة ذكية لاكتشاف وتصنيف الشركات في المدن السعودية (الرياض، جدة، الدمام) عبر الخرائط مع أتمتة حملات التواصل عبر واتساب والبريد الإلكتروني.",
+        desc_en: "AI-driven B2B lead discovery, geospatial search, sector analytics, and automated WhatsApp/Email outreach tailored for the Saudi market.",
+        tags: ["TypeScript", "React", "Gemini AI", "Node.js", "Analytics"],
+        liveUrl: "",
+        repoUrl: "https://github.com/dhiaamostafa46/LeadGenAI",
+        screens: [
+          { label_ar: "لوحة القيادة والتحليل المفصل", label_en: "LeadGen AI Analytics Dashboard", src: "./img/2026-05-09_screenshot_01.jpg" }
+        ]
+      },
+      {
+        id: "eyeintec",
+        category: "portals",
+        badge_ar: "منصة مؤسسية تقنية",
+        badge_en: "Enterprise Tech Portal",
+        title_ar: "شركة عين التقنية ومنصة EyeinCode",
+        title_en: "Eyein Technology & EyeinCode Ecosystem",
+        role_ar: "مهندس برمجيات أول (Senior Software Engineer)",
+        role_en: "Senior Software Engineer",
+        desc_ar: "البوابة الرقمية الرسمية لشركة عين التقنية في المملكة العربية السعودية لاستعراض الحلول السحابية، الأنظمة الأمنية، والمنتجات البرمجية.",
+        desc_en: "Corporate platform and digital product showcase for Eyein Technology in Riyadh, Saudi Arabia.",
+        tags: ["Laravel", "React", "Tailwind CSS", "Cloud Hosting"],
+        liveUrl: "https://eyeintec.com",
+        repoUrl: "",
+        screens: [
+          { label_ar: "واجهة عين التقنية الحديثة", label_en: "EyeinTec Main Portal", src: "./img/2026-05-16_eyeintec-home_01.png" },
+          { label_ar: "منصة EyeinCode", label_en: "EyeinCode Platform", src: "./img/2026-05-16_eyeincode_01.png" }
+        ]
+      },
+      {
+        id: "musanid",
+        category: "portals",
+        badge_ar: "منصة تحول رقمي وأعمال",
+        badge_en: "Digital Transformation Portal",
+        title_ar: "منصة مساند (Musanid Platform)",
+        title_en: "Musanid Enterprise Services Portal",
+        role_ar: "مهندس تطوير متكامل (Full-Stack Architect)",
+        role_en: "Full-Stack Engineer",
+        desc_ar: "منصة رقمية متكاملة لخدمات الأعمال والتحول الرقمي في السوق السعودي بتصميم عصري وأداء فائق السرعة.",
+        desc_en: "High-performance Saudi digital services and enterprise portal engineered for reliability and seamless UX.",
+        tags: ["Laravel", "PHP", "MySQL", "Modern UI"],
+        liveUrl: "https://musanid.sa",
+        repoUrl: "",
+        screens: [
+          { label_ar: "منصة مساند (musanid.sa)", label_en: "Musanid Live Portal", src: "./img/2025-02-05_musanid-sa_01.png" }
+        ]
+      },
+      {
+        id: "watantumuh",
+        category: "portals",
+        badge_ar: "منصة مؤسسية ومجتمعية",
+        badge_en: "Institutional Organization Portal",
+        title_ar: "منصة وطن طموح (Watan Tumuh)",
+        title_en: "Watan Tumuh Institutional Platform",
+        role_ar: "مطور الأنظمة والواجهة (Full-Stack Developer)",
+        role_en: "Full-Stack Developer",
+        desc_ar: "منصة مؤسسية سعودية متكاملة لإدارة المبادرات، البرامج المجتمعية، والتقارير الرقمية.",
+        desc_en: "Saudi institutional digital platform for managing community initiatives, programs, and governance.",
+        tags: ["PHP", "Laravel", "MySQL", "Responsive UI"],
+        liveUrl: "https://watantumuh.org.sa",
+        repoUrl: "",
+        screens: [
+          { label_ar: "منصة وطن طموح (watantumuh.org.sa)", label_en: "Watan Tumuh Portal", src: "./img/2026-05-16_watantumuh-org-sa_01.png" }
+        ]
+      },
+      {
+        id: "miranedu",
+        category: "erp",
+        badge_ar: "منصة تعليم إلكتروني LMS",
+        badge_en: "E-Learning & LMS Platform",
+        title_ar: "منصة مران التعليمية (MiranEdu LMS)",
+        title_en: "MiranEdu Interactive E-Learning Platform",
+        role_ar: "مطور الأنظمة الكاملة (Full-Stack Engineer)",
+        role_en: "Full-Stack Engineer",
+        desc_ar: "نظام إدارة تعلم إلكتروني متكامل يدعم الدورات التفاعلية، تتبع تقدم الطلاب، الاختبارات، وإصدار الشهادات.",
+        desc_en: "Comprehensive Learning Management System with interactive courses, student progress analytics, and assessments.",
+        tags: ["React", "Node.js", "Express", "MongoDB"],
+        liveUrl: "https://miranedu.com",
+        repoUrl: "",
+        screens: [
+          { label_ar: "منصة مران التعليمية (miranedu.com)", label_en: "MiranEdu LMS", src: "./img/2024-07-03_miranedu_01.png" }
+        ]
+      },
+      {
+        id: "actesgroup",
+        category: "portals",
+        badge_ar: "قطاع الطاقة المتجددة",
+        badge_en: "Solar & Energy Sector",
+        title_ar: "مجموعة أكتس للطاقة (Actes Group)",
+        title_en: "Actes Group Solar & Energy Platform",
+        role_ar: "مهندس برمجيات (Full-Stack Developer)",
+        role_en: "Full-Stack Developer",
+        desc_ar: "البوابة الرقمية لمجموعة أكتس المتخصصة في حلول الطاقة الشمسية والمشاريع الهندسية.",
+        desc_en: "Corporate web platform and project catalog for Actes Group Solar & Engineering Solutions.",
+        tags: ["Laravel", "JavaScript", "MySQL", "SEO"],
+        liveUrl: "https://actesgroup.com",
+        repoUrl: "",
+        screens: [
+          { label_ar: "موقع مجموعة أكتس (actesgroup.com)", label_en: "Actes Group Website", src: "./img/2024-07-03_actesgroup_01.png" }
+        ]
+      },
+      {
+        id: "dar-alzomorod",
+        category: "portals",
+        badge_ar: "أنظمة طبية وحجوزات عيادات",
+        badge_en: "Healthcare & Clinic System",
+        title_ar: "مجمع عيادات دار الزمرد الطبي",
+        title_en: "Dar Al-Zomorod Medical & Dental Complex",
+        role_ar: "مطور الأنظمة الطبية والحجوزات",
+        role_en: "Healthcare Web Systems Developer",
+        desc_ar: "منصة طبية متكاملة لعرض الكادر الطبي، العروض العلاجية، ونظام حجز المواعيد الإلكتروني والتكامل مع الواتساب.",
+        desc_en: "Healthcare portal featuring doctor scheduling, medical specialties, and instant patient appointment booking.",
+        tags: ["PHP", "Laravel", "MySQL", "Booking Engine"],
+        liveUrl: "",
+        repoUrl: "",
+        screens: [
+          { label_ar: "الواجهة الرئيسية للحجوزات", label_en: "Medical Complex Hero", src: "./img/2024-07-06_capture-3_01.png" },
+          { label_ar: "واجهة العيادات والعروض", label_en: "Clinics & Specialties View", src: "./img/2024-07-06_capture-6_01.png" }
+        ]
+      },
+      {
+        id: "hasti-gov",
+        category: "erp",
+        badge_ar: "بوابة حكومية للبحث العلمي",
+        badge_en: "Gov Research Portal",
+        title_ar: "بوابة أولويات البحث العلمي الوطنية (HASTI)",
+        title_en: "National Research Priorities Gov Portal",
+        role_ar: "مهندس المنصة الخلفية والواجهات",
+        role_en: "Lead Platform Engineer",
+        desc_ar: "منصة حكومية رسمية لإدارة وتوثيق أولويات البحث العلمي والدراسات الأكاديمية والمشاريع البحثية.",
+        desc_en: "Official governmental portal for managing national scientific research priorities and academic submissions.",
+        tags: ["PHP", "Laravel", "MySQL", "Gov Portal"],
+        liveUrl: "",
+        repoUrl: "",
+        screens: [
+          { label_ar: "البوابة الرئيسية للأبحاث", label_en: "Research Portal Home", src: "./img/2024-07-03_research-priorities-hasti-gov-ye_01.png" },
+          { label_ar: "تفاصيل الأولويات البحثية", label_en: "Research Tracks View", src: "./img/2024-07-03_research-priorities-hasti-gov-ye_02.png" }
+        ]
+      },
+      {
+        id: "barmgely-cinema",
+        category: "portals",
+        badge_ar: "منصات رقمية وترفيهية",
+        badge_en: "Media & Agency Platforms",
+        title_ar: "منصة برمجلي (Barmgely) و Cinema Flix",
+        title_en: "Barmgely Agency & Cinema Flix Media Platform",
+        role_ar: "مهندس تطوير متكامل",
+        role_en: "Full-Stack Developer",
+        desc_ar: "تطوير منصات وكالات البرمجة (Barmgely) ومنصة استعراض وحجز الأفلام التفاعلية (Cinema Flix).",
+        desc_en: "Production web agency portal (Barmgely) and interactive movie streaming/booking showcase (Cinema Flix).",
+        tags: ["React", "Laravel", "REST API", "Tailwind"],
+        liveUrl: "https://barmgely.com",
+        repoUrl: "",
+        screens: [
+          { label_ar: "منصة برمجلي (barmgely.com)", label_en: "Barmgely Platform", src: "./img/2024-07-03_barmgely_01.png" },
+          { label_ar: "منصة Cinema Flix", label_en: "Cinema Flix UI", src: "./img/2024-07-06_capture-11_01.png" }
+        ]
+      }
+    ];
+
+    const reposData = [
+      {
+        name: "laravel-gemini",
+        lang: "PHP • Laravel SDK",
+        desc_ar: "حزمة متقدمة لتكامل Google Gemini AI مع Laravel تدعم النصوص، الصور، الفيديو، الصوت، المخرجات المنظمة، واستدعاء الدوال.",
+        desc_en: "Multimodal Google Gemini API SDK for Laravel supporting text, vision, video, audio, structured outputs & function calling.",
+        tag: "AI / LLM",
+        url: "https://github.com/dhiaamostafa46/laravel-gemini"
+      },
+      {
+        name: "LeadGenAI",
+        lang: "TypeScript • React",
+        desc_ar: "منصة ذكاء اصطناعي لتوليد العملاء المحتملين للشركات والبحث بالخرائط وأتمتة رسائل واتساب والبريد.",
+        desc_en: "AI-powered B2B lead generation, geospatial company prospecting, and automated outreach analytics dashboard.",
+        tag: "AI SaaS",
+        url: "https://github.com/dhiaamostafa46/LeadGenAI"
+      },
+      {
+        name: "alinma-pay",
+        lang: "PHP • FinTech",
+        desc_ar: "تكامل بوابة الدفع البنكي (مصرف الإنماء Alinma Pay) مع توقيع العمليات والتحقق الآمن من المدفوعات.",
+        desc_en: "Enterprise banking payment gateway integration for Alinma Bank with cryptographic signing & webhooks.",
+        tag: "FinTech",
+        url: "https://github.com/dhiaamostafa46/alinma-pay"
+      },
+      {
+        name: "authentica",
+        lang: "PHP • Security",
+        desc_ar: "نظام مصادقة وتحقق من الهوية عالي الأمان وقابل للتوسع للتطبيقات المؤسسية.",
+        desc_en: "Scalable enterprise identity verification and multi-factor authentication architecture.",
+        tag: "Security / Auth",
+        url: "https://github.com/dhiaamostafa46/authentica"
+      },
+      {
+        name: "AetherWallet",
+        lang: "PHP • FinTech",
+        desc_ar: "نواة محفظة رقمية لإدارة الأرصدة، التحويلات المالية، وسجلات التدقيق المحاسبي.",
+        desc_en: "Digital wallet core engine supporting ledger transactions, balance isolation, and audit logs.",
+        tag: "Digital Wallet",
+        url: "https://github.com/dhiaamostafa46/AetherWallet"
+      },
+      {
+        name: "HRblazor",
+        lang: "C# • .NET Blazor",
+        desc_ar: "نظام إدارة موارد بشرية ومسيرات رواتب وحضور وانصراف متكامل مبني بتقنية C# و Blazor.",
+        desc_en: "Enterprise Human Resources, Attendance & Payroll management system built with C# and .NET Blazor.",
+        tag: "Enterprise .NET",
+        url: "https://github.com/dhiaamostafa46/HRblazor"
+      },
+      {
+        name: "reverb",
+        lang: "PHP • WebSockets",
+        desc_ar: "خادم اتصالات WebSocket فائق السرعة للبث اللحظي والتتبع المباشر في تطبيقات Laravel.",
+        desc_en: "High-concurrency WebSocket server implementation for real-time Laravel broadcasting.",
+        tag: "Real-Time",
+        url: "https://github.com/dhiaamostafa46/reverb"
+      },
+      {
+        name: "laravel-modules",
+        lang: "PHP • Architecture",
+        desc_ar: "إدارة المعمارية المعيارية (Modular Monolith / DDD) لتنظيم المشاريع الضخمة في Laravel.",
+        desc_en: "Modular monolith architecture manager for structuring large-scale enterprise Laravel systems.",
+        tag: "Architecture",
+        url: "https://github.com/dhiaamostafa46/laravel-modules"
+      },
+      {
+        name: "ai-cv-optimizer",
+        lang: "JavaScript • AI",
+        desc_ar: "محسّن السيرة الذاتية الذكي لتحليل ومطابقة المهارات مع المتطلبات الوظيفية عبر الذكاء الاصطناعي.",
+        desc_en: "AI resume analyzer and ATS optimization engine powered by Large Language Models.",
+        tag: "AI Tool",
+        url: "https://github.com/dhiaamostafa46/ai-cv-optimizer"
+      },
+      {
+        name: "ReactAdmin",
+        lang: "TypeScript • React",
+        desc_ar: "لوحة تحكم إدارية حديثة مبنية بـ TypeScript و React مع رسوم بيانية وإدارة صلاحيات.",
+        desc_en: "Type-safe enterprise administration dashboard with analytics widgets and RBAC views.",
+        tag: "Dashboard",
+        url: "https://github.com/dhiaamostafa46/ReactAdmin"
+      },
+      {
+        name: "Real-estate",
+        lang: "C# • ASP.NET",
+        desc_ar: "منصة إدارة عقارات وأملاك متكاملة مبنية ببيئة C# و .NET.",
+        desc_en: "End-to-end property management and real-estate brokerage platform in C# / .NET.",
+        tag: "PropTech",
+        url: "https://github.com/dhiaamostafa46/Real-estate"
+      },
+      {
+        name: "laravel-notification-log",
+        lang: "PHP • Observability",
+        desc_ar: "نظام تسجيل وتتبع حالة الإشعارات المرسلة عبر مختلف القنوات في تطبيقات Laravel.",
+        desc_en: "Audit logging and delivery telemetry package for multi-channel Laravel notifications.",
+        tag: "Observability",
+        url: "https://github.com/dhiaamostafa46/laravel-notification-log"
+      }
+    ];
+
+    const timelineData = [
+      {
+        period_ar: "2023 – حتى الآن • الرياض، السعودية 🇸🇦",
+        period_en: "2023 – Present • Riyadh, Saudi Arabia 🇸🇦",
+        role_ar: "مهندس برمجيات أول ومصمم معمارية (Senior Software Engineer)",
+        role_en: "Senior Software Engineer & ERP Architect",
+        company_ar: "شركة عين التقنية (Eyein Technology)",
+        company_en: "Eyein Technology",
+        points_ar: [
+          "هندسة وبناء نظام Evix Cloud ERP السحابي متعدد المستأجرين لخدمة أكثر من 500 منشأة.",
+          "تصميم البنية التحتية لمنصة التتبع اللوجستي اللحظي لأكثر من 7,000 مندوب عبر WebSockets و Redis.",
+          "قيادة فرق التطوير في مشاريع الموارد البشرية، بوابات الدفع، ونظام الكاميرات الذكية (Eyein Lenses)."
+        ],
+        points_en: [
+          "Architected Evix Cloud ERP from scratch with database-per-tenant isolation serving 500+ businesses.",
+          "Engineered real-time GPS tracking and order dispatch infrastructure for 7,000+ delivery agents.",
+          "Led cross-functional squads across HR automation, FinTech gateways, and Eyein Lenses AI surveillance."
+        ]
+      },
+      {
+        period_ar: "2022 – 2023 • السعودية 🇸🇦",
+        period_en: "2022 – 2023 • Saudi Arabia 🇸🇦",
+        role_ar: "مطور برمجيات متكامل (Full-Stack Developer)",
+        role_en: "Full-Stack Software Engineer",
+        company_ar: "شركة ذكاء الأنظمة لتقنية المعلومات (SMART SYSTEM)",
+        company_en: "SMART SYSTEM Information Technology",
+        points_ar: [
+          "تطوير أنظمة إدارة المطاعم والفنادق والمنصات الخدمية بأعلى معايير الأداء.",
+          "إدارة تسليم المشاريع بمنهجية Agile بنسبة التزام بالمواعيد تجاوزت 95%."
+        ],
+        points_en: [
+          "Developed comprehensive hospitality, restaurant, and enterprise management systems.",
+          "Delivered Agile-driven client platforms with a 95%+ on-time delivery track record."
+        ]
+      },
+      {
+        period_ar: "2020 – 2022 • اليمن 🇾🇪",
+        period_en: "2020 – 2022 • Yemen 🇾🇪",
+        role_ar: "مطور ويب متكامل (Full-Stack Developer)",
+        role_en: "Full-Stack Developer",
+        company_ar: "إسكي سوفت (ESKYSOFT)",
+        company_en: "ESKYSOFT",
+        points_ar: [
+          "بناء منصات التعليم الإلكتروني (LMS) والمتاجر الإلكترونية وأنظمة الحجوزات الطبية.",
+          "الحفاظ على استقرار الأنظمة بنسبة 99.9% وتحسين أزمنة استجابة قواعد البيانات."
+        ],
+        points_en: [
+          "Built e-learning LMS platforms, e-commerce storefronts, and medical booking engines.",
+          "Maintained 99.9% production uptime and optimized SQL query performance."
+        ]
+      }
+    ];
+
+    function selectArchTab(idx) {
+      currentArchIndex = idx;
+      for (let i = 0; i < 4; i++) {
+        document.getElementById('archBtn' + i).classList.toggle('active', i === idx);
+      }
+      const step = archSteps[idx];
+      document.getElementById('archPanelTitle').textContent = currentLang === 'ar' ? step.title_ar : step.title_en;
+      document.getElementById('archPanelDesc').textContent = currentLang === 'ar' ? step.desc_ar : step.desc_en;
+      document.getElementById('archPanelCode').textContent = step.code;
+    }
+
+    function renderProjects() {
+      const grid = document.getElementById('projectsGrid');
+      const filtered = currentCategory === 'all'
+        ? projectsData
+        : projectsData.filter(p => p.category === currentCategory);
+
+      grid.innerHTML = filtered.map(p => {
+        const badge = currentLang === 'ar' ? p.badge_ar : p.badge_en;
+        const title = currentLang === 'ar' ? p.title_ar : p.title_en;
+        const role = currentLang === 'ar' ? p.role_ar : p.role_en;
+        const desc = currentLang === 'ar' ? p.desc_ar : p.desc_en;
+        const previewText = i18n[currentLang].preview_btn + ` (${p.screens.length})`;
+
+        return `
+          <article class="project-card">
+            <div class="project-thumb-wrap" onclick="openProjectModal('${p.id}')">
+              <img src="${p.screens[0].src}" alt="${title}" loading="lazy" />
+              <div class="thumb-overlay">
+                <span class="category-badge">${badge}</span>
+                <span class="preview-trigger-badge">${previewText}</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">${title}</h3>
+              <div class="project-role">${role}</div>
+              <p class="project-desc">${desc}</p>
+              <div class="project-tags">
+                ${p.tags.map(t => `<span class="project-tag">${t}</span>`).join('')}
+              </div>
+              <div class="project-links">
+                <button class="project-link-btn repo" onclick="openProjectModal('${p.id}')">
+                  ${previewText}
+                </button>
+                ${p.liveUrl ? `<a href="${p.liveUrl}" target="_blank" rel="noopener" class="project-link-btn live">${i18n[currentLang].live_btn}</a>` : ''}
+                ${p.repoUrl ? `<a href="${p.repoUrl}" target="_blank" rel="noopener" class="project-link-btn repo">${i18n[currentLang].repo_btn}</a>` : ''}
+              </div>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function filterProjects(cat, btnEl) {
+      currentCategory = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      if (btnEl) btnEl.classList.add('active');
+      renderProjects();
+    }
+
+    function renderRepos() {
+      const grid = document.getElementById('reposGrid');
+      grid.innerHTML = reposData.map(r => `
+        <a href="${r.url}" target="_blank" rel="noopener" class="repo-card">
+          <div>
+            <div class="repo-top">
+              <span class="repo-name">${r.name}</span>
+              <span class="repo-lang">${r.tag}</span>
+            </div>
+            <p class="repo-desc">${currentLang === 'ar' ? r.desc_ar : r.desc_en}</p>
+          </div>
+          <div class="repo-footer">
+            <span>${r.lang}</span>
+            <span style="color: var(--accent-cyan);">github.com/dhiaamostafa46 ↗</span>
+          </div>
+        </a>
+      `).join('');
+    }
+
+    function renderTimeline() {
+      const grid = document.getElementById('timelineGrid');
+      grid.innerHTML = timelineData.map(t => {
+        const points = currentLang === 'ar' ? t.points_ar : t.points_en;
+        return `
+          <div class="timeline-card">
+            <span class="timeline-period">${currentLang === 'ar' ? t.period_ar : t.period_en}</span>
+            <h3 class="timeline-role">${currentLang === 'ar' ? t.role_ar : t.role_en}</h3>
+            <div class="timeline-company">${currentLang === 'ar' ? t.company_ar : t.company_en}</div>
+            <ul class="timeline-list">
+              ${points.map(pt => `<li>${pt}</li>`).join('')}
+            </ul>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function openProjectModal(projectId) {
+      const project = projectsData.find(p => p.id === projectId);
+      if (!project) return;
+
+      const modal = document.getElementById('screenshotModal');
+      const titleEl = document.getElementById('modalTitle');
+      const tabsEl = document.getElementById('modalTabs');
+      const imgEl = document.getElementById('modalImage');
+
+      titleEl.textContent = currentLang === 'ar' ? project.title_ar : project.title_en;
+      imgEl.src = project.screens[0].src;
+
+      tabsEl.innerHTML = project.screens.map((s, idx) => `
+        <button class="arch-tab ${idx === 0 ? 'active' : ''}" onclick="switchModalScreen('${projectId}', ${idx}, this)">
+          ${currentLang === 'ar' ? s.label_ar : s.label_en}
+        </button>
+      `).join('');
+
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function switchModalScreen(projectId, screenIdx, btnEl) {
+      const project = projectsData.find(p => p.id === projectId);
+      if (!project) return;
+      document.getElementById('modalImage').src = project.screens[screenIdx].src;
+      document.querySelectorAll('#modalTabs .arch-tab').forEach(b => b.classList.remove('active'));
+      btnEl.classList.add('active');
+    }
+
+    function closeModal() {
+      document.getElementById('screenshotModal').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function closeModalOnBackdrop(e) {
+      if (e.target.id === 'screenshotModal') closeModal();
+    }
+
+    function toggleLanguage() {
+      currentLang = currentLang === 'ar' ? 'en' : 'ar';
+      const htmlEl = document.documentElement;
+      htmlEl.lang = currentLang;
+      htmlEl.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+      document.getElementById('langLabel').textContent = currentLang === 'ar' ? 'English' : 'العربية';
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (i18n[currentLang][key]) {
+          el.textContent = i18n[currentLang][key];
+        }
+      });
+
+      selectArchTab(currentArchIndex);
+      renderProjects();
+      renderRepos();
+      renderTimeline();
+    }
+
+    function copyEmail() {
+      navigator.clipboard.writeText('dhiaamostafa46@gmail.com');
+      const toast = document.getElementById('toastMsg');
+      toast.textContent = i18n[currentLang].toast_copied;
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 2800);
+    }
+
+    // Escape key closes modal
+    window.addEventListener('keydown', e => {
+      if (e.key === 'Escape') closeModal();
+    });
+
+    // Initial render
+    selectArchTab(0);
+    renderProjects();
+    renderRepos();
+    renderTimeline();
+  </script>
+</body>
+</html>

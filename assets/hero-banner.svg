@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07090E"/>
+      <stop offset="50%" stop-color="#0D1322"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="glowBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Main Background -->
+  <rect width="1200" height="380" rx="20" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="2"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
+
+  <!-- Ambient Glows -->
+  <circle cx="180" cy="80" r="240" fill="url(#glowBlue)"/>
+  <circle cx="1020" cy="300" r="260" fill="url(#glowBlue)"/>
+
+  <!-- Top Accent Line -->
+  <rect x="60" y="0" width="1080" height="3" fill="url(#accentGrad)" opacity="0.85"/>
+
+  <!-- Left Content Area -->
+  <!-- Status Pill -->
+  <g transform="translate(60, 42)">
+    <rect width="355" height="30" rx="15" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+    <circle cx="18" cy="15" r="5" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="34" y="19" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11.5" font-weight="600" fill="#94A3B8" letter-spacing="1">SYSTEMS ARCHITECT • RIYADH, KSA</text>
+  </g>
+
+  <!-- Name & Title -->
+  <text x="60" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">Dhiaa Mostafa</text>
+  
+  <text x="60" y="165" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#38BDF8">
+    Senior Back-End Engineer &amp; Enterprise SaaS / ERP Architect
+  </text>
+
+  <text x="60" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#94A3B8">
+    Architecting high-concurrency multi-tenant platforms, cloud ERP ecosystems, FinTech gateways,
+  </text>
+  <text x="60" y="222" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" fill="#94A3B8">
+    and real-time distributed systems across Laravel, ASP.NET Core, Node.js, and AI pipelines.
+  </text>
+
+  <!-- Core Architecture Pills -->
+  <g transform="translate(60, 246)">
+    <rect x="0" y="0" width="148" height="28" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="74" y="18" text-anchor="middle" font-family="monospace" font-size="12" fill="#E2E8F0">Multi-Tenant SaaS</text>
+
+    <rect x="158" y="0" width="136" height="28" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="226" y="18" text-anchor="middle" font-family="monospace" font-size="12" fill="#E2E8F0">Cloud ERP Core</text>
+
+    <rect x="304" y="0" width="156" height="28" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="382" y="18" text-anchor="middle" font-family="monospace" font-size="12" fill="#E2E8F0">Real-Time Streams</text>
+
+    <rect x="470" y="0" width="142" height="28" rx="6" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <text x="541" y="18" text-anchor="middle" font-family="monospace" font-size="12" fill="#E2E8F0">FinTech &amp; AI SDKs</text>
+  </g>
+
+  <!-- Bottom Metrics Row -->
+  <g transform="translate(60, 296)">
+    <!-- Metric 1 -->
+    <rect x="0" y="0" width="165" height="54" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" fill="#38BDF8">7,000+</text>
+    <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#94A3B8">Live GPS Agents</text>
+
+    <!-- Metric 2 -->
+    <rect x="178" y="0" width="165" height="54" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="194" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" fill="#10B981">500+</text>
+    <text x="194" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#94A3B8">Enterprise ERP Clients</text>
+
+    <!-- Metric 3 -->
+    <rect x="356" y="0" width="165" height="54" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="372" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" fill="#A855F7">99.9%</text>
+    <text x="372" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#94A3B8">Production SLA Uptime</text>
+
+    <!-- Metric 4 -->
+    <rect x="534" y="0" width="165" height="54" rx="10" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="550" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="800" fill="#F59E0B">27+</text>
+    <text x="550" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" fill="#94A3B8">OSS &amp; Production Systems</text>
+  </g>
+
+  <!-- Right Side: Bento System Telemetry Card -->
+  <g transform="translate(790, 42)">
+    <rect width="350" height="296" rx="14" fill="#0B1120" stroke="#1E293B" stroke-width="1.5"/>
+    <!-- Terminal Header -->
+    <rect width="350" height="34" rx="14" fill="#111827"/>
+    <circle cx="20" cy="17" r="5" fill="#EF4444"/>
+    <circle cx="36" cy="17" r="5" fill="#F59E0B"/>
+    <circle cx="52" cy="17" r="5" fill="#10B981"/>
+    <text x="175" y="21" text-anchor="middle" font-family="monospace" font-size="11" fill="#64748B">architect@dhiaamostafa.com</text>
+
+    <!-- Architecture Node Flow Inside Card -->
+    <text x="22" y="60" font-family="monospace" font-size="12" fill="#38BDF8">$ clusterctl status --production</text>
+
+    <!-- Node 1 -->
+    <rect x="22" y="74" width="306" height="44" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="1"/>
+    <circle cx="40" cy="96" r="4" fill="#10B981"/>
+    <text x="54" y="92" font-family="monospace" font-size="12" font-weight="700" fill="#F8FAFC">Evix Multi-Tenant ERP Core</text>
+    <text x="54" y="108" font-family="monospace" font-size="10.5" fill="#94A3B8">DB-per-Tenant • Accounting • POS • HR</text>
+
+    <!-- Node 2 -->
+    <rect x="22" y="128" width="306" height="44" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="1"/>
+    <circle cx="40" cy="150" r="4" fill="#38BDF8"/>
+    <text x="54" y="146" font-family="monospace" font-size="12" font-weight="700" fill="#F8FAFC">Real-Time Logistics Engine</text>
+    <text x="54" y="162" font-family="monospace" font-size="10.5" fill="#94A3B8">7,000+ Agents • Reverb WebSockets • Redis</text>
+
+    <!-- Node 3 -->
+    <rect x="22" y="182" width="306" height="44" rx="8" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="1"/>
+    <circle cx="40" cy="204" r="4" fill="#A855F7"/>
+    <text x="54" y="200" font-family="monospace" font-size="12" font-weight="700" fill="#F8FAFC">AI &amp; FinTech Ecosystem</text>
+    <text x="54" y="216" font-family="monospace" font-size="10.5" fill="#94A3B8">Laravel-Gemini • LeadGenAI • AlinmaPay</text>
+
+    <!-- Footer Telemetry -->
+    <line x1="22" y1="242" x2="328" y2="242" stroke="#1E293B" stroke-width="1"/>
+    <text x="22" y="264" font-family="monospace" font-size="11" fill="#64748B">STACK:</text>
+    <text x="68" y="264" font-family="monospace" font-size="11" fill="#E2E8F0">Laravel • .NET • Node • React • AWS</text>
+    <text x="22" y="282" font-family="monospace" font-size="11" fill="#10B981">● All systems operational (99.98% SLA)</text>
+  </g>
+</svg>
